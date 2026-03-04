@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3ff226384cf0e338569d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "apriltag_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AprilTagNode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AprilTagNode-2476e4801c33ac8ba330.json",
+					"name" : "AprilTagNode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_node-8f281af84e23df8b7d59.json",
+					"name" : "apriltag_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_ros_uninstall-c92ad9172e9fa2a82659.json",
+					"name" : "apriltag_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conversion-d86557d8e16941e8260c.json",
+					"name" : "conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_estimation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_estimation-a1f688d2828a2492c407.json",
+					"name" : "pose_estimation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tags::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tags-6bc8fc2c5c8e9bd6fdfd.json",
+					"name" : "tags",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3bae3cb46c359ede07da.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/team100/team_ws/src/build/apriltag_ros",
+		"source" : "/home/team100/team_ws/src/apriltag_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,28 @@
+[1.464s] Invoking command in '/home/team100/team_ws/src/e116': PYTHONPATH=/home/team100/team_ws/src/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/team_ws/src/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/e116 build --build-base /home/team100/team_ws/src/build/e116/build install --record /home/team100/team_ws/src/build/e116/install.log --single-version-externally-managed install_data
+[2.006s] running egg_info
+[2.007s] writing ../build/e116/e116.egg-info/PKG-INFO
+[2.008s] writing dependency_links to ../build/e116/e116.egg-info/dependency_links.txt
+[2.008s] writing entry points to ../build/e116/e116.egg-info/entry_points.txt
+[2.009s] writing requirements to ../build/e116/e116.egg-info/requires.txt
+[2.009s] writing top-level names to ../build/e116/e116.egg-info/top_level.txt
+[2.013s] reading manifest file '../build/e116/e116.egg-info/SOURCES.txt'
+[2.014s] writing manifest file '../build/e116/e116.egg-info/SOURCES.txt'
+[2.015s] running build
+[2.015s] running build_py
+[2.015s] copying e116/keyJoyTerminal.py -> /home/team100/team_ws/src/build/e116/build/lib/e116
+[2.016s] running install
+[2.017s] running install_lib
+[2.021s] copying /home/team100/team_ws/src/build/e116/build/lib/e116/keyJoyTerminal.py -> /home/team100/team_ws/src/install/e116/lib/python3.10/site-packages/e116
+[2.022s] byte-compiling /home/team100/team_ws/src/install/e116/lib/python3.10/site-packages/e116/keyJoyTerminal.py to keyJoyTerminal.cpython-310.pyc
+[2.024s] running install_data
+[2.024s] copying launch/teleop_terminal.launch.py -> /home/team100/team_ws/src/install/e116/share/e116/launch
+[2.025s] copying config/e116.yaml -> /home/team100/team_ws/src/install/e116/share/e116/config
+[2.025s] running install_egg_info
+[2.029s] removing '/home/team100/team_ws/src/install/e116/lib/python3.10/site-packages/e116-0.0.1-py3.10.egg-info' (and everything under it)
+[2.029s] Copying ../build/e116/e116.egg-info to /home/team100/team_ws/src/install/e116/lib/python3.10/site-packages/e116-0.0.1-py3.10.egg-info
+[2.032s] running install_scripts
+[2.076s] Installing e116_racecar script to /home/team100/team_ws/src/install/e116/lib/e116
+[2.077s] Installing keyJoy script to /home/team100/team_ws/src/install/e116/lib/e116
+[2.077s] Installing keyJoyTerminal script to /home/team100/team_ws/src/install/e116/lib/e116
+[2.078s] writing list of installed files to '/home/team100/team_ws/src/build/e116/install.log'
+[2.148s] Invoked command in '/home/team100/team_ws/src/e116' returned '0': PYTHONPATH=/home/team100/team_ws/src/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/team_ws/src/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/e116 build --build-base /home/team100/team_ws/src/build/e116/build install --record /home/team100/team_ws/src/build/e116/install.log --single-version-externally-managed install_data

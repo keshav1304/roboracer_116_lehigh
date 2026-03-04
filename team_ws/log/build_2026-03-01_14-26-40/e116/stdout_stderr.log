@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating e116.egg-info
+writing e116.egg-info/PKG-INFO
+writing dependency_links to e116.egg-info/dependency_links.txt
+writing entry points to e116.egg-info/entry_points.txt
+writing requirements to e116.egg-info/requires.txt
+writing top-level names to e116.egg-info/top_level.txt
+writing manifest file 'e116.egg-info/SOURCES.txt'
+reading manifest file 'e116.egg-info/SOURCES.txt'
+writing manifest file 'e116.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116.egg-link (link to .)
+Installing e116_racecar script to /home/team100/team_ws/install/e116/lib/e116
+Installing keyJoy script to /home/team100/team_ws/install/e116/lib/e116
+Installing keyJoyTerminal script to /home/team100/team_ws/install/e116/lib/e116
+
+Installed /home/team100/team_ws/build/e116
+running symlink_data
+creating /home/team100/team_ws/install/e116/share/ament_index
+creating /home/team100/team_ws/install/e116/share/ament_index/resource_index
+creating /home/team100/team_ws/install/e116/share/ament_index/resource_index/packages
+symbolically linking /home/team100/team_ws/build/e116/resource/e116 -> /home/team100/team_ws/install/e116/share/ament_index/resource_index/packages
+symbolically linking /home/team100/team_ws/build/e116/package.xml -> /home/team100/team_ws/install/e116/share/e116
+creating /home/team100/team_ws/install/e116/share/e116/launch
+symbolically linking /home/team100/team_ws/build/e116/launch/teleop.launch.py -> /home/team100/team_ws/install/e116/share/e116/launch
+symbolically linking /home/team100/team_ws/build/e116/launch/teleop_terminal.launch.py -> /home/team100/team_ws/install/e116/share/e116/launch
+creating /home/team100/team_ws/install/e116/share/e116/config
+symbolically linking /home/team100/team_ws/build/e116/config/e116.yaml -> /home/team100/team_ws/install/e116/share/e116/config

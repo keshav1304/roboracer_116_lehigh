@@ -1,0 +1,68 @@
+[0.041s] Invoking command in '/home/team100/team_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/team100/team_ws/build/apriltag -- -j6 -l6
+[0.142s] [  2%] [34m[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx[0m
+[0.150s] [  4%] [34m[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx[0m
+[0.156s] [ 83%] Built target apriltag
+[0.160s] [ 86%] [34m[1mGenerating apriltag_estimate_tag_pose_docstring.h, apriltag_estimate_tag_pose_docstring.cxx[0m
+[0.228s] [ 90%] Built target apriltag_demo
+[0.246s] [ 95%] Built target opencv_demo
+[0.259s] [ 95%] Built target apriltag_py_docstrings
+[0.291s] [35m[1mConsolidate compiler generated dependencies of target apriltag.cpython-310-aarch64-linux-gnu[0m
+[0.320s] [ 97%] [32mBuilding C object CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/apriltag_pywrap.c.o[0m
+[0.861s] [100%] [32m[1mLinking C shared module apriltag.cpython-310-aarch64-linux-gnu.so[0m
+[0.943s] [100%] Built target apriltag.cpython-310-aarch64-linux-gnu
+[0.992s] Invoked command in '/home/team100/team_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/team100/team_ws/build/apriltag -- -j6 -l6
+[0.995s] Invoking command in '/home/team100/team_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/team100/team_ws/build/apriltag
+[1.010s] -- Install configuration: "Release"
+[1.010s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/apriltag.h
+[1.011s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/apriltag_math.h
+[1.011s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/apriltag_pose.h
+[1.012s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/debug_print.h
+[1.012s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/doubles.h
+[1.013s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[1.013s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/floats.h
+[1.014s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/g2d.h
+[1.014s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/getopt.h
+[1.015s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/homography.h
+[1.015s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/image_types.h
+[1.015s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/image_u8.h
+[1.016s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/image_u8_parallel.h
+[1.016s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/image_u8x3.h
+[1.016s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/image_u8x4.h
+[1.016s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/matd.h
+[1.017s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/math_util.h
+[1.017s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/pam.h
+[1.017s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/pjpeg.h
+[1.017s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/pnm.h
+[1.017s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/postscript_utils.h
+[1.018s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/pthreads_cross.h
+[1.018s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/string_util.h
+[1.018s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/svd22.h
+[1.018s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/time_util.h
+[1.018s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/timeprofile.h
+[1.019s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/unionfind.h
+[1.019s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/workerpool.h
+[1.019s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/zarray.h
+[1.020s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/zhash.h
+[1.021s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/common/zmaxheap.h
+[1.022s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/tag16h5.h
+[1.022s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/tag25h9.h
+[1.024s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/tag36h10.h
+[1.025s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/tag36h11.h
+[1.025s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/tagCircle21h7.h
+[1.027s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/tagCircle49h12.h
+[1.027s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/tagCustom48h12.h
+[1.028s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/tagStandard41h12.h
+[1.029s] -- Up-to-date: /home/team100/team_ws/install/apriltag/include/apriltag/tagStandard52h13.h
+[1.029s] -- Up-to-date: /home/team100/team_ws/install/apriltag/lib/libapriltag.so.3.4.5
+[1.030s] -- Up-to-date: /home/team100/team_ws/install/apriltag/lib/libapriltag.so.3
+[1.032s] -- Up-to-date: /home/team100/team_ws/install/apriltag/lib/libapriltag.so
+[1.032s] -- Up-to-date: /home/team100/team_ws/install/apriltag/lib/apriltag/cmake/apriltagTargets.cmake
+[1.033s] -- Up-to-date: /home/team100/team_ws/install/apriltag/lib/apriltag/cmake/apriltagTargets-release.cmake
+[1.033s] -- Up-to-date: /home/team100/team_ws/install/apriltag/lib/apriltag/cmake/apriltagConfig.cmake
+[1.033s] -- Up-to-date: /home/team100/team_ws/install/apriltag/lib/apriltag/cmake/apriltagConfigVersion.cmake
+[1.033s] -- Up-to-date: /home/team100/team_ws/install/apriltag/lib/pkgconfig/apriltag.pc
+[1.033s] -- Installing: /home/team100/team_ws/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-aarch64-linux-gnu.so
+[1.033s] -- Set runtime path of "/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-aarch64-linux-gnu.so" to ""
+[1.035s] -- Up-to-date: /home/team100/team_ws/install/apriltag/bin/opencv_demo
+[1.037s] -- Up-to-date: /home/team100/team_ws/install/apriltag/bin/apriltag_demo
+[1.046s] Invoked command in '/home/team100/team_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/team100/team_ws/build/apriltag

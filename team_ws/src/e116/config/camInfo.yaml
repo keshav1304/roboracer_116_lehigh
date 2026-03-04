@@ -1,0 +1,35 @@
+pos: "center"
+image_width: 640
+image_height: 480
+fixed_frame: "map"
+camera_name: "default_cam"
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [482.922659, 0, 306.414367, 0, 483.274395, 206.919193, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.070208, -0.020804, -0.017827, -0.017188, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [502.647125, 0, 295.615081, 0, 0, 504.451874, 198.717804, 0, 0, 0, 1, 0]
+  
+cam_trans: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+

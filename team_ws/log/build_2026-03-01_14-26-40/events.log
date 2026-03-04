@@ -1,0 +1,957 @@
+[0.000000] (-) TimerEvent: {}
+[0.000646] (apriltag) JobQueued: {'identifier': 'apriltag', 'dependencies': OrderedDict()}
+[0.001211] (apriltag_msgs) JobQueued: {'identifier': 'apriltag_msgs', 'dependencies': OrderedDict()}
+[0.001484] (e116) JobQueued: {'identifier': 'e116', 'dependencies': OrderedDict()}
+[0.001751] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict([('apriltag', '/home/team100/team_ws/install/apriltag'), ('apriltag_msgs', '/home/team100/team_ws/install/apriltag_msgs')])}
+[0.001867] (apriltag) JobStarted: {'identifier': 'apriltag'}
+[0.013349] (apriltag_msgs) JobStarted: {'identifier': 'apriltag_msgs'}
+[0.020099] (e116) JobStarted: {'identifier': 'e116'}
+[0.033375] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'cmake'}
+[0.034386] (apriltag) Command: {'cmd': ['/usr/bin/cmake', '/home/team100/team_ws/src/apriltag', '-DCMAKE_INSTALL_PREFIX=/home/team100/team_ws/install/apriltag'], 'cwd': '/home/team100/team_ws/build/apriltag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'team100'), ('SSH_CLIENT', '172.20.10.9 54431 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/team100/team_ws/install/apriltag_ros/lib:/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/team100'), ('OLDPWD', '/home/team100/team_ws/src/e116'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/team100/team_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'team100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/team100/team_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/team_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/team100/team_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/team100/team_ws/install/e116:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/team100/team_ws/build/apriltag'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.9 54431 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/e116:/opt/ros/humble')]), 'shell': False}
+[0.039010] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'cmake'}
+[0.039935] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/team100/team_ws/src/apriltag_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/team100/team_ws/install/apriltag_msgs'], 'cwd': '/home/team100/team_ws/build/apriltag_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'team100'), ('SSH_CLIENT', '172.20.10.9 54431 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/team100/team_ws/install/apriltag_ros/lib:/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/team100'), ('OLDPWD', '/home/team100/team_ws/src/e116'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/team100/team_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'team100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/team100/team_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/team_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/team100/team_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/team100/team_ws/install/e116:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/team100/team_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.9 54431 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/e116:/opt/ros/humble')]), 'shell': False}
+[0.099329] (-) TimerEvent: {}
+[0.165396] (apriltag) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.165992] (apriltag_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.193039] (apriltag) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199425] (-) TimerEvent: {}
+[0.299978] (-) TimerEvent: {}
+[0.370945] (apriltag) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.395705] (apriltag) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.397538] (apriltag) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.400050] (-) TimerEvent: {}
+[0.403603] (apriltag) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.405548] (apriltag) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[0.413021] (apriltag) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.500248] (-) TimerEvent: {}
+[0.563878] (apriltag_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.580955] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.584334] (apriltag) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.585035] (apriltag) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600596] (-) TimerEvent: {}
+[0.701325] (-) TimerEvent: {}
+[0.724398] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.736913] (apriltag) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.738155] (apriltag_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.738676] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.739508] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.741356] (apriltag) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.748119] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801500] (-) TimerEvent: {}
+[0.902213] (-) TimerEvent: {}
+[0.920937] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.935376] (apriltag_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.935904] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.936914] (apriltag_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.945850] (apriltag_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.002303] (-) TimerEvent: {}
+[1.102951] (-) TimerEvent: {}
+[1.203599] (-) TimerEvent: {}
+[1.294495] (apriltag_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.303689] (-) TimerEvent: {}
+[1.404247] (-) TimerEvent: {}
+[1.449415] (e116) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/team100/team_ws/build/e116/build', '--no-deps', 'symlink_data'], 'cwd': '/home/team100/team_ws/build/e116', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'team100', 'SSH_CLIENT': '172.20.10.9 54431 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/team100/team_ws/install/apriltag_ros/lib:/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/team100', 'OLDPWD': '/home/team100/team_ws/src/e116', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLCON_PREFIX_PATH': '/home/team100/team_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'team100', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/team100/team_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/team_ws/install/apriltag/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/team100/team_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/team100/team_ws/install/e116:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/team100/team_ws/build/e116', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.9 54431 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/team100/team_ws/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag'}, 'shell': False}
+[1.468174] (apriltag_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.504345] (-) TimerEvent: {}
+[1.555801] (apriltag_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.571586] (apriltag_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.589809] (apriltag_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.604520] (-) TimerEvent: {}
+[1.703149] (apriltag_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.704599] (-) TimerEvent: {}
+[1.800291] (apriltag_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.804696] (-) TimerEvent: {}
+[1.905584] (-) TimerEvent: {}
+[2.006606] (-) TimerEvent: {}
+[2.071640] (e116) StdoutLine: {'line': b'running develop\n'}
+[2.106733] (-) TimerEvent: {}
+[2.162837] (apriltag) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.176285] (apriltag) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.206902] (-) TimerEvent: {}
+[2.307546] (-) TimerEvent: {}
+[2.332758] (apriltag) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.347074] (apriltag) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.347679] (apriltag) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.348744] (apriltag) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.350788] (apriltag) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.375755] (apriltag) StdoutLine: {'line': b'-- Generating done\n'}
+[2.383769] (apriltag) StdoutLine: {'line': b'-- Build files have been written to: /home/team100/team_ws/build/apriltag\n'}
+[2.394818] (apriltag) CommandEnded: {'returncode': 0}
+[2.396183] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'build'}
+[2.398871] (apriltag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/team100/team_ws/build/apriltag', '--', '-j6', '-l6'], 'cwd': '/home/team100/team_ws/build/apriltag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'team100'), ('SSH_CLIENT', '172.20.10.9 54431 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/team100/team_ws/install/apriltag_ros/lib:/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/team100'), ('OLDPWD', '/home/team100/team_ws/src/e116'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/team100/team_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'team100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/team100/team_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/team_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/team100/team_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/team100/team_ws/install/e116:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/team100/team_ws/build/apriltag'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.9 54431 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/e116:/opt/ros/humble')]), 'shell': False}
+[2.407654] (-) TimerEvent: {}
+[2.458414] (e116) StdoutLine: {'line': b'running egg_info\n'}
+[2.458879] (e116) StdoutLine: {'line': b'creating e116.egg-info\n'}
+[2.459159] (e116) StdoutLine: {'line': b'writing e116.egg-info/PKG-INFO\n'}
+[2.459989] (e116) StdoutLine: {'line': b'writing dependency_links to e116.egg-info/dependency_links.txt\n'}
+[2.460324] (e116) StdoutLine: {'line': b'writing entry points to e116.egg-info/entry_points.txt\n'}
+[2.460796] (e116) StdoutLine: {'line': b'writing requirements to e116.egg-info/requires.txt\n'}
+[2.461078] (e116) StdoutLine: {'line': b'writing top-level names to e116.egg-info/top_level.txt\n'}
+[2.461823] (e116) StdoutLine: {'line': b"writing manifest file 'e116.egg-info/SOURCES.txt'\n"}
+[2.466158] (e116) StdoutLine: {'line': b"reading manifest file 'e116.egg-info/SOURCES.txt'\n"}
+[2.467711] (e116) StdoutLine: {'line': b"writing manifest file 'e116.egg-info/SOURCES.txt'\n"}
+[2.471276] (e116) StdoutLine: {'line': b'running build_ext\n'}
+[2.471869] (e116) StdoutLine: {'line': b'Creating /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116.egg-link (link to .)\n'}
+[2.474165] (e116) StdoutLine: {'line': b'Installing e116_racecar script to /home/team100/team_ws/install/e116/lib/e116\n'}
+[2.474736] (e116) StdoutLine: {'line': b'Installing keyJoy script to /home/team100/team_ws/install/e116/lib/e116\n'}
+[2.475154] (e116) StdoutLine: {'line': b'Installing keyJoyTerminal script to /home/team100/team_ws/install/e116/lib/e116\n'}
+[2.475760] (e116) StdoutLine: {'line': b'\n'}
+[2.476037] (e116) StdoutLine: {'line': b'Installed /home/team100/team_ws/build/e116\n'}
+[2.476180] (e116) StdoutLine: {'line': b'running symlink_data\n'}
+[2.476351] (e116) StdoutLine: {'line': b'creating /home/team100/team_ws/install/e116/share/ament_index\n'}
+[2.476572] (e116) StdoutLine: {'line': b'creating /home/team100/team_ws/install/e116/share/ament_index/resource_index\n'}
+[2.476706] (e116) StdoutLine: {'line': b'creating /home/team100/team_ws/install/e116/share/ament_index/resource_index/packages\n'}
+[2.476971] (e116) StdoutLine: {'line': b'symbolically linking /home/team100/team_ws/build/e116/resource/e116 -> /home/team100/team_ws/install/e116/share/ament_index/resource_index/packages\n'}
+[2.477199] (e116) StdoutLine: {'line': b'symbolically linking /home/team100/team_ws/build/e116/package.xml -> /home/team100/team_ws/install/e116/share/e116\n'}
+[2.477423] (e116) StdoutLine: {'line': b'creating /home/team100/team_ws/install/e116/share/e116/launch\n'}
+[2.477600] (e116) StdoutLine: {'line': b'symbolically linking /home/team100/team_ws/build/e116/launch/teleop.launch.py -> /home/team100/team_ws/install/e116/share/e116/launch\n'}
+[2.477789] (e116) StdoutLine: {'line': b'symbolically linking /home/team100/team_ws/build/e116/launch/teleop_terminal.launch.py -> /home/team100/team_ws/install/e116/share/e116/launch\n'}
+[2.477922] (e116) StdoutLine: {'line': b'creating /home/team100/team_ws/install/e116/share/e116/config\n'}
+[2.478051] (e116) StdoutLine: {'line': b'symbolically linking /home/team100/team_ws/build/e116/config/e116.yaml -> /home/team100/team_ws/install/e116/share/e116/config\n'}
+[2.496851] (apriltag) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx\x1b[0m\n'}
+[2.497524] (apriltag) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/apriltag_pose.c.o\x1b[0m\n'}
+[2.497774] (apriltag) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/apriltag.c.o\x1b[0m\n'}
+[2.500654] (apriltag) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx\x1b[0m\n'}
+[2.504911] (apriltag) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating apriltag_estimate_tag_pose_docstring.h, apriltag_estimate_tag_pose_docstring.cxx\x1b[0m\n'}
+[2.507807] (-) TimerEvent: {}
+[2.513870] (apriltag) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o\x1b[0m\n'}
+[2.566122] (apriltag_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.576642] (e116) CommandEnded: {'returncode': 0}
+[2.608266] (apriltag) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/getopt.c.o\x1b[0m\n'}
+[2.609447] (-) TimerEvent: {}
+[2.611282] (apriltag) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/g2d.c.o\x1b[0m\n'}
+[2.616209] (e116) JobEnded: {'identifier': 'e116', 'rc': 0}
+[2.618645] (apriltag) StdoutLine: {'line': b'[ 18%] Built target apriltag_py_docstrings\n'}
+[2.651990] (apriltag) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/homography.c.o\x1b[0m\n'}
+[2.709666] (-) TimerEvent: {}
+[2.810396] (-) TimerEvent: {}
+[2.911177] (-) TimerEvent: {}
+[3.011911] (-) TimerEvent: {}
+[3.082184] (apriltag) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8.c.o\x1b[0m\n'}
+[3.082721] (apriltag) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8_parallel.c.o\x1b[0m\n'}
+[3.112132] (-) TimerEvent: {}
+[3.146929] (apriltag) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x3.c.o\x1b[0m\n'}
+[3.167729] (apriltag) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x4.c.o\x1b[0m\n'}
+[3.212371] (-) TimerEvent: {}
+[3.313720] (-) TimerEvent: {}
+[3.415000] (-) TimerEvent: {}
+[3.423605] (apriltag_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.441447] (apriltag) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/matd.c.o\x1b[0m\n'}
+[3.515205] (-) TimerEvent: {}
+[3.521617] (apriltag) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/pam.c.o\x1b[0m\n'}
+[3.615419] (-) TimerEvent: {}
+[3.631457] (apriltag) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg-idct.c.o\x1b[0m\n'}
+[3.715624] (-) TimerEvent: {}
+[3.770627] (apriltag) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg.c.o\x1b[0m\n'}
+[3.815864] (-) TimerEvent: {}
+[3.816547] (apriltag) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/pnm.c.o\x1b[0m\n'}
+[3.916099] (-) TimerEvent: {}
+[4.017430] (-) TimerEvent: {}
+[4.110994] (apriltag) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/pthreads_cross.c.o\x1b[0m\n'}
+[4.117627] (-) TimerEvent: {}
+[4.218856] (-) TimerEvent: {}
+[4.261744] (apriltag) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/string_util.c.o\x1b[0m\n'}
+[4.264488] (apriltag_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.285763] (apriltag) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/svd22.c.o\x1b[0m\n'}
+[4.319029] (-) TimerEvent: {}
+[4.381986] (apriltag_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.386418] (apriltag_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.419253] (-) TimerEvent: {}
+[4.427721] (apriltag) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/time_util.c.o\x1b[0m\n'}
+[4.462251] (apriltag_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.473409] (apriltag_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.473912] (apriltag_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.474090] (apriltag_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[4.519484] (-) TimerEvent: {}
+[4.574677] (apriltag_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.587314] (apriltag) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/unionfind.c.o\x1b[0m\n'}
+[4.619706] (-) TimerEvent: {}
+[4.623572] (apriltag) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/workerpool.c.o\x1b[0m\n'}
+[4.678274] (apriltag) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/zarray.c.o\x1b[0m\n'}
+[4.719944] (-) TimerEvent: {}
+[4.733258] (apriltag) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/zhash.c.o\x1b[0m\n'}
+[4.774472] (apriltag_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.820161] (-) TimerEvent: {}
+[4.860523] (apriltag) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/zmaxheap.c.o\x1b[0m\n'}
+[4.876465] (apriltag) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tag25h9.c.o\x1b[0m\n'}
+[4.886849] (apriltag) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tag16h5.c.o\x1b[0m\n'}
+[4.900205] (apriltag_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.920401] (-) TimerEvent: {}
+[4.925862] (apriltag_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.937124] (apriltag_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.020616] (-) TimerEvent: {}
+[5.067811] (apriltag_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[5.072895] (apriltag) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tag36h10.c.o\x1b[0m\n'}
+[5.085702] (apriltag) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tag36h11.c.o\x1b[0m\n'}
+[5.090400] (apriltag) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tagCircle21h7.c.o\x1b[0m\n'}
+[5.101296] (apriltag_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/team100/team_ws/build/apriltag_msgs\n'}
+[5.121040] (-) TimerEvent: {}
+[5.126508] (apriltag_msgs) CommandEnded: {'returncode': 0}
+[5.127366] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'build'}
+[5.127437] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/team100/team_ws/build/apriltag_msgs', '--', '-j6', '-l6'], 'cwd': '/home/team100/team_ws/build/apriltag_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'team100'), ('SSH_CLIENT', '172.20.10.9 54431 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/team100/team_ws/install/apriltag_ros/lib:/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/team100'), ('OLDPWD', '/home/team100/team_ws/src/e116'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/team100/team_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'team100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/team100/team_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/team_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/team100/team_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/team100/team_ws/install/e116:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/team100/team_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.9 54431 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/e116:/opt/ros/humble')]), 'shell': False}
+[5.159343] (apriltag) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tagCircle49h12.c.o\x1b[0m\n'}
+[5.172905] (apriltag) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tagCustom48h12.c.o\x1b[0m\n'}
+[5.221229] (-) TimerEvent: {}
+[5.247083] (apriltag) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tagStandard52h13.c.o\x1b[0m\n'}
+[5.251585] (apriltag) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tagStandard41h12.c.o\x1b[0m\n'}
+[5.275125] (apriltag_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.279811] (apriltag_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.321396] (-) TimerEvent: {}
+[5.327607] (apriltag_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_apriltag_msgs\n'}
+[5.421578] (-) TimerEvent: {}
+[5.522742] (-) TimerEvent: {}
+[5.623856] (-) TimerEvent: {}
+[5.637515] (apriltag) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libapriltag.so\x1b[0m\n'}
+[5.724027] (-) TimerEvent: {}
+[5.769921] (apriltag) StdoutLine: {'line': b'[ 86%] Built target apriltag\n'}
+[5.807855] (apriltag) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o\x1b[0m\n'}
+[5.808312] (apriltag) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/apriltag_pywrap.c.o\x1b[0m\n'}
+[5.808701] (apriltag) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o\x1b[0m\n'}
+[5.824178] (-) TimerEvent: {}
+[5.924862] (-) TimerEvent: {}
+[5.952048] (apriltag_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.953589] (apriltag_msgs) StdoutLine: {'line': b'creating apriltag_msgs.egg-info\n'}
+[5.954045] (apriltag_msgs) StdoutLine: {'line': b'writing apriltag_msgs.egg-info/PKG-INFO\n'}
+[5.954529] (apriltag_msgs) StdoutLine: {'line': b'writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt\n'}
+[5.954944] (apriltag_msgs) StdoutLine: {'line': b'writing top-level names to apriltag_msgs.egg-info/top_level.txt\n'}
+[5.955494] (apriltag_msgs) StdoutLine: {'line': b"writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'\n"}
+[5.960012] (apriltag_msgs) StdoutLine: {'line': b"reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'\n"}
+[5.961585] (apriltag_msgs) StdoutLine: {'line': b"writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'\n"}
+[6.025021] (-) TimerEvent: {}
+[6.038122] (apriltag_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_apriltag_msgs_egg\n'}
+[6.123834] (apriltag) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C executable apriltag_demo\x1b[0m\n'}
+[6.125134] (-) TimerEvent: {}
+[6.217231] (apriltag) StdoutLine: {'line': b'[ 95%] Built target apriltag_demo\n'}
+[6.225354] (-) TimerEvent: {}
+[6.277712] (apriltag_msgs) StdoutLine: {'line': b'[  4%] Built target apriltag_msgs__cpp\n'}
+[6.307192] (apriltag_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.315026] (apriltag_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.325518] (-) TimerEvent: {}
+[6.329513] (apriltag_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.372272] (apriltag_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection__functions.c.o\x1b[0m\n'}
+[6.376036] (apriltag_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/point__functions.c.o\x1b[0m\n'}
+[6.382933] (apriltag) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module apriltag.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[6.388384] (apriltag_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c.o\x1b[0m\n'}
+[6.425688] (-) TimerEvent: {}
+[6.517348] (apriltag) StdoutLine: {'line': b'[ 97%] Built target apriltag.cpython-310-aarch64-linux-gnu\n'}
+[6.525862] (-) TimerEvent: {}
+[6.572943] (apriltag_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libapriltag_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[6.626046] (-) TimerEvent: {}
+[6.646562] (apriltag_msgs) StdoutLine: {'line': b'[ 19%] Built target apriltag_msgs__rosidl_generator_c\n'}
+[6.667100] (apriltag_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.667582] (apriltag_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.696294] (apriltag_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.726224] (-) TimerEvent: {}
+[6.827335] (-) TimerEvent: {}
+[6.928012] (-) TimerEvent: {}
+[7.028676] (-) TimerEvent: {}
+[7.107798] (apriltag_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/point__type_support.cpp.o\x1b[0m\n'}
+[7.128840] (-) TimerEvent: {}
+[7.229489] (-) TimerEvent: {}
+[7.231739] (apriltag_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/point__type_support.cpp.o\x1b[0m\n'}
+[7.290091] (apriltag_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o\x1b[0m\n'}
+[7.329679] (-) TimerEvent: {}
+[7.430786] (-) TimerEvent: {}
+[7.531917] (-) TimerEvent: {}
+[7.570687] (apriltag_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/point__type_support.cpp.o\x1b[0m\n'}
+[7.632161] (-) TimerEvent: {}
+[7.725796] (apriltag_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o\x1b[0m\n'}
+[7.732399] (-) TimerEvent: {}
+[7.793217] (apriltag_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/point__type_support.c.o\x1b[0m\n'}
+[7.804529] (apriltag_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/point__type_support_c.cpp.o\x1b[0m\n'}
+[7.823306] (apriltag_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o\x1b[0m\n'}
+[7.832643] (-) TimerEvent: {}
+[7.839159] (apriltag_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o\x1b[0m\n'}
+[7.899749] (apriltag_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.932526] (apriltag_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection__type_support.c.o\x1b[0m\n'}
+[7.933114] (-) TimerEvent: {}
+[8.034199] (-) TimerEvent: {}
+[8.042629] (apriltag_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c.o\x1b[0m\n'}
+[8.063745] (apriltag_msgs) StdoutLine: {'line': b'[ 51%] Built target apriltag_msgs__rosidl_typesupport_c\n'}
+[8.114005] (apriltag_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o\x1b[0m\n'}
+[8.134422] (-) TimerEvent: {}
+[8.187747] (apriltag_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libapriltag_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.234667] (-) TimerEvent: {}
+[8.256970] (apriltag_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp.o\x1b[0m\n'}
+[8.268382] (apriltag_msgs) StdoutLine: {'line': b'[ 57%] Built target apriltag_msgs__rosidl_typesupport_introspection_c\n'}
+[8.286603] (apriltag_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o\x1b[0m\n'}
+[8.334885] (-) TimerEvent: {}
+[8.436167] (-) TimerEvent: {}
+[8.537467] (-) TimerEvent: {}
+[8.551898] (apriltag_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o\x1b[0m\n'}
+[8.624948] (apriltag_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o\x1b[0m\n'}
+[8.637682] (-) TimerEvent: {}
+[8.728416] (apriltag_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection__type_support_c.cpp.o\x1b[0m\n'}
+[8.737888] (-) TimerEvent: {}
+[8.839120] (-) TimerEvent: {}
+[8.843321] (apriltag_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.939358] (-) TimerEvent: {}
+[9.050134] (-) TimerEvent: {}
+[9.081802] (apriltag_msgs) StdoutLine: {'line': b'[ 68%] Built target apriltag_msgs__rosidl_typesupport_cpp\n'}
+[9.150447] (-) TimerEvent: {}
+[9.205418] (apriltag_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support_c.cpp.o\x1b[0m\n'}
+[9.250569] (-) TimerEvent: {}
+[9.351830] (-) TimerEvent: {}
+[9.453076] (-) TimerEvent: {}
+[9.554329] (-) TimerEvent: {}
+[9.655574] (-) TimerEvent: {}
+[9.695709] (apriltag_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.755783] (-) TimerEvent: {}
+[9.768184] (apriltag_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.855988] (-) TimerEvent: {}
+[9.871859] (apriltag_msgs) StdoutLine: {'line': b'[ 74%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.931188] (apriltag_msgs) StdoutLine: {'line': b'[ 74%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp\n'}
+[9.956149] (-) TimerEvent: {}
+[10.056846] (-) TimerEvent: {}
+[10.066743] (apriltag_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.157030] (-) TimerEvent: {}
+[10.215500] (apriltag_msgs) StdoutLine: {'line': b'[ 76%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c\n'}
+[10.255889] (apriltag_msgs) StdoutLine: {'line': b'[ 76%] Built target apriltag_msgs\n'}
+[10.257094] (-) TimerEvent: {}
+[10.296184] (apriltag_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.357277] (-) TimerEvent: {}
+[10.457865] (-) TimerEvent: {}
+[10.558908] (-) TimerEvent: {}
+[10.659572] (-) TimerEvent: {}
+[10.760224] (-) TimerEvent: {}
+[10.860887] (-) TimerEvent: {}
+[10.961768] (-) TimerEvent: {}
+[11.062430] (-) TimerEvent: {}
+[11.078600] (apriltag) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable opencv_demo\x1b[0m\n'}
+[11.162619] (-) TimerEvent: {}
+[11.263308] (-) TimerEvent: {}
+[11.363961] (-) TimerEvent: {}
+[11.464619] (-) TimerEvent: {}
+[11.516119] (apriltag_msgs) StdoutLine: {'line': b'[ 78%] Built target apriltag_msgs__py\n'}
+[11.555327] (apriltag_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_s.c.o\x1b[0m\n'}
+[11.555837] (apriltag_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_point_s.c.o\x1b[0m\n'}
+[11.556778] (apriltag_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_array_s.c.o\x1b[0m\n'}
+[11.564799] (-) TimerEvent: {}
+[11.665755] (-) TimerEvent: {}
+[11.766534] (-) TimerEvent: {}
+[11.822623] (apriltag_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[11.866731] (-) TimerEvent: {}
+[11.907439] (apriltag_msgs) StdoutLine: {'line': b'[ 87%] Built target apriltag_msgs__rosidl_generator_py\n'}
+[11.949527] (apriltag_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.950049] (apriltag_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.950279] (apriltag_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.966935] (-) TimerEvent: {}
+[12.067659] (-) TimerEvent: {}
+[12.168376] (-) TimerEvent: {}
+[12.179415] (apriltag_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.180015] (apriltag_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.180209] (apriltag_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.259052] (apriltag_msgs) StdoutLine: {'line': b'[100%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[12.259560] (apriltag_msgs) StdoutLine: {'line': b'[100%] Built target apriltag_msgs__rosidl_typesupport_c__pyext\n'}
+[12.265106] (apriltag_msgs) StdoutLine: {'line': b'[100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.268759] (-) TimerEvent: {}
+[12.290925] (apriltag_msgs) CommandEnded: {'returncode': 0}
+[12.292508] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'install'}
+[12.310167] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/team100/team_ws/build/apriltag_msgs'], 'cwd': '/home/team100/team_ws/build/apriltag_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'team100'), ('SSH_CLIENT', '172.20.10.9 54431 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/team100/team_ws/install/apriltag_ros/lib:/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/team100'), ('OLDPWD', '/home/team100/team_ws/src/e116'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/team100/team_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'team100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/team100/team_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/team_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/team100/team_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/team100/team_ws/install/e116:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/team100/team_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.9 54431 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/e116:/opt/ros/humble')]), 'shell': False}
+[12.327237] (apriltag_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.328378] (apriltag_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.329216] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs\n'}
+[12.347570] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h\n'}
+[12.364486] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h\n'}
+[12.368875] (-) TimerEvent: {}
+[12.382607] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h\n'}
+[12.400316] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h\n'}
+[12.417780] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h\n'}
+[12.437488] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h\n'}
+[12.455603] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h\n'}
+[12.469050] (-) TimerEvent: {}
+[12.472701] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h\n'}
+[12.492657] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h\n'}
+[12.510602] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h\n'}
+[12.527678] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h\n'}
+[12.545404] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h\n'}
+[12.563776] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.569159] (-) TimerEvent: {}
+[12.581694] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh\n'}
+[12.601722] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv\n'}
+[12.620492] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[12.637883] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[12.654786] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h\n'}
+[12.669340] (-) TimerEvent: {}
+[12.672310] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.675729] (apriltag) StdoutLine: {'line': b'[100%] Built target opencv_demo\n'}
+[12.690439] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h\n'}
+[12.697812] (apriltag) CommandEnded: {'returncode': 0}
+[12.699327] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'install'}
+[12.699754] (apriltag) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/team100/team_ws/build/apriltag'], 'cwd': '/home/team100/team_ws/build/apriltag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'team100'), ('SSH_CLIENT', '172.20.10.9 54431 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/team100/team_ws/install/apriltag_ros/lib:/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/team100'), ('OLDPWD', '/home/team100/team_ws/src/e116'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/team100/team_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'team100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/team100/team_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/team_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/team100/team_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/team100/team_ws/install/e116:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/team100/team_ws/build/apriltag'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.9 54431 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/e116:/opt/ros/humble')]), 'shell': False}
+[12.707963] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h\n'}
+[12.716050] (apriltag) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[12.716684] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/apriltag.h\n'}
+[12.716938] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/apriltag_math.h\n'}
+[12.717138] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/apriltag_pose.h\n'}
+[12.717424] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/debug_print.h\n'}
+[12.717703] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/doubles.h\n'}
+[12.719018] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h\n'}
+[12.720278] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/floats.h\n'}
+[12.720856] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/g2d.h\n'}
+[12.721143] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/getopt.h\n'}
+[12.721419] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/homography.h\n'}
+[12.721735] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/image_types.h\n'}
+[12.721999] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/image_u8.h\n'}
+[12.722278] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/image_u8_parallel.h\n'}
+[12.722558] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/image_u8x3.h\n'}
+[12.722826] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/image_u8x4.h\n'}
+[12.723080] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/matd.h\n'}
+[12.723708] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/math_util.h\n'}
+[12.723992] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/pam.h\n'}
+[12.724201] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h\n'}
+[12.724445] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/pjpeg.h\n'}
+[12.724661] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/pnm.h\n'}
+[12.724855] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/postscript_utils.h\n'}
+[12.725124] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/pthreads_cross.h\n'}
+[12.725374] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/string_util.h\n'}
+[12.725666] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/svd22.h\n'}
+[12.725927] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/time_util.h\n'}
+[12.726187] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/timeprofile.h\n'}
+[12.726455] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/unionfind.h\n'}
+[12.726735] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/workerpool.h\n'}
+[12.726987] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/zarray.h\n'}
+[12.727304] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/zhash.h\n'}
+[12.727627] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/common/zmaxheap.h\n'}
+[12.727903] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/tag16h5.h\n'}
+[12.728155] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/tag25h9.h\n'}
+[12.728410] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/tag36h10.h\n'}
+[12.728727] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/tag36h11.h\n'}
+[12.728965] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/tagCircle21h7.h\n'}
+[12.729225] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/tagCircle49h12.h\n'}
+[12.729478] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/tagCustom48h12.h\n'}
+[12.729736] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/tagStandard41h12.h\n'}
+[12.729995] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/include/apriltag/tagStandard52h13.h\n'}
+[12.730454] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/lib/libapriltag.so.3.4.5\n'}
+[12.734253] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/lib/libapriltag.so.3\n'}
+[12.734548] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/lib/libapriltag.so\n'}
+[12.734907] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/lib/apriltag/cmake/apriltagTargets.cmake\n'}
+[12.735260] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/lib/apriltag/cmake/apriltagTargets-release.cmake\n'}
+[12.735573] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/lib/apriltag/cmake/apriltagConfig.cmake\n'}
+[12.735798] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/lib/apriltag/cmake/apriltagConfigVersion.cmake\n'}
+[12.736169] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/lib/pkgconfig/apriltag.pc\n'}
+[12.736674] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-aarch64-linux-gnu.so\n'}
+[12.737370] (apriltag) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[12.737621] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/bin/opencv_demo\n'}
+[12.738263] (apriltag) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag/bin/opencv_demo" to ""\n'}
+[12.738468] (apriltag) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag/bin/apriltag_demo\n'}
+[12.739000] (apriltag) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag/bin/apriltag_demo" to ""\n'}
+[12.740932] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.742604] (apriltag) CommandEnded: {'returncode': 0}
+[12.760999] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp\n'}
+[12.769484] (-) TimerEvent: {}
+[12.779807] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp\n'}
+[12.788852] (apriltag) JobEnded: {'identifier': 'apriltag', 'rc': 0}
+[12.797318] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp\n'}
+[12.814487] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp\n'}
+[12.832762] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp\n'}
+[12.849156] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp\n'}
+[12.867915] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp\n'}
+[12.869576] (-) TimerEvent: {}
+[12.884949] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp\n'}
+[12.901375] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp\n'}
+[12.918070] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp\n'}
+[12.935275] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp\n'}
+[12.951849] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp\n'}
+[12.968351] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp\n'}
+[12.969680] (-) TimerEvent: {}
+[12.985797] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.hpp\n'}
+[13.002900] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp\n'}
+[13.019210] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.037018] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.055483] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.069848] (-) TimerEvent: {}
+[13.071584] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.088920] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.106954] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.123771] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.140279] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.156828] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh\n'}
+[13.170007] (-) TimerEvent: {}
+[13.173182] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv\n'}
+[13.190907] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/PKG-INFO\n'}
+[13.207331] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[13.223850] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[13.240240] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/top_level.txt\n'}
+[13.259101] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py\n'}
+[13.270152] (-) TimerEvent: {}
+[13.277497] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[13.293854] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.310028] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.326485] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.343518] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.359918] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.370260] (-) TimerEvent: {}
+[13.376816] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so\n'}
+[13.393171] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py\n'}
+[13.409566] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py\n'}
+[13.426002] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py\n'}
+[13.442185] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c\n'}
+[13.458365] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c\n'}
+[13.470401] (-) TimerEvent: {}
+[13.474537] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py\n'}
+[13.491203] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point_s.c\n'}
+[13.508824] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.509641] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.510507] (apriltag_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.511177] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl\n'}
+[13.528316] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl\n'}
+[13.545026] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl\n'}
+[13.561805] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg\n'}
+[13.570535] (-) TimerEvent: {}
+[13.578842] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg\n'}
+[13.595869] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg\n'}
+[13.612936] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs\n'}
+[13.630415] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs\n'}
+[13.649569] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh\n'}
+[13.667086] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv\n'}
+[13.670778] (-) TimerEvent: {}
+[13.684925] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh\n'}
+[13.701906] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv\n'}
+[13.719837] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash\n'}
+[13.736773] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh\n'}
+[13.753816] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh\n'}
+[13.770311] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv\n'}
+[13.770868] (-) TimerEvent: {}
+[13.788164] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv\n'}
+[13.805005] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs\n'}
+[13.821605] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[13.838214] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.854718] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.871058] (-) TimerEvent: {}
+[13.871677] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.890058] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.906679] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.923995] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.941010] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake\n'}
+[13.959499] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake\n'}
+[13.971171] (-) TimerEvent: {}
+[13.976019] (apriltag_msgs) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/package.xml\n'}
+[13.993163] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so\n'}
+[13.994339] (apriltag_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so" to ""\n'}
+[13.994876] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[13.996059] (apriltag_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.996404] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so\n'}
+[13.997379] (apriltag_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.997709] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so\n'}
+[13.998579] (apriltag_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so" to ""\n'}
+[13.998905] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.000106] (apriltag_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.000447] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[14.001625] (apriltag_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.001919] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so\n'}
+[14.002812] (apriltag_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[14.071556] (-) TimerEvent: {}
+[14.087323] (apriltag_msgs) StdoutLine: {'line': b"Listing '/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...\n"}
+[14.087760] (apriltag_msgs) StdoutLine: {'line': b"Compiling '/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py'...\n"}
+[14.087938] (apriltag_msgs) StdoutLine: {'line': b"Listing '/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...\n"}
+[14.088095] (apriltag_msgs) StdoutLine: {'line': b"Compiling '/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py'...\n"}
+[14.088239] (apriltag_msgs) StdoutLine: {'line': b"Compiling '/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py'...\n"}
+[14.088374] (apriltag_msgs) StdoutLine: {'line': b"Compiling '/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py'...\n"}
+[14.088544] (apriltag_msgs) StdoutLine: {'line': b"Compiling '/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py'...\n"}
+[14.100007] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so\n'}
+[14.100679] (apriltag_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/team100/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so" to ""\n'}
+[14.100893] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake\n'}
+[14.101113] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.101461] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.101937] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.102444] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.102968] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.103538] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake\n'}
+[14.104043] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.104644] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake\n'}
+[14.105160] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.105664] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.106233] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.106733] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.107273] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[14.107799] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.108351] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake\n'}
+[14.108928] (apriltag_msgs) StdoutLine: {'line': b'-- Installing: /home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.115904] (apriltag_msgs) CommandEnded: {'returncode': 0}
+[14.171694] (-) TimerEvent: {}
+[14.176823] (apriltag_msgs) JobEnded: {'identifier': 'apriltag_msgs', 'rc': 0}
+[14.180112] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[14.202199] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'cmake'}
+[14.203362] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/team100/team_ws/src/apriltag_ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/team100/team_ws/install/apriltag_ros'], 'cwd': '/home/team100/team_ws/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'team100'), ('SSH_CLIENT', '172.20.10.9 54431 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/home/team100/team_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/team100'), ('OLDPWD', '/home/team100/team_ws/src/e116'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/team100/team_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'team100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/team100/team_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/team_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/team100/team_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/team100/team_ws/install/e116:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/team100/team_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.9 54431 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/e116:/opt/ros/humble')]), 'shell': False}
+[14.271809] (-) TimerEvent: {}
+[14.315411] (apriltag_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[14.371905] (-) TimerEvent: {}
+[14.432333] (apriltag_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[14.453593] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.472000] (-) TimerEvent: {}
+[14.572400] (-) TimerEvent: {}
+[14.597357] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.620038] (apriltag_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.621037] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.622370] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.633124] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.672506] (-) TimerEvent: {}
+[14.772946] (-) TimerEvent: {}
+[14.799192] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.825049] (apriltag_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.826065] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.827678] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.838099] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[14.873045] (-) TimerEvent: {}
+[14.973440] (-) TimerEvent: {}
+[15.073857] (-) TimerEvent: {}
+[15.174231] (-) TimerEvent: {}
+[15.178731] (apriltag_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[15.274321] (-) TimerEvent: {}
+[15.326193] (apriltag_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[15.374415] (-) TimerEvent: {}
+[15.474751] (-) TimerEvent: {}
+[15.512327] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[15.522332] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[15.539487] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[15.564334] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.574840] (-) TimerEvent: {}
+[15.597276] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.674933] (-) TimerEvent: {}
+[15.718640] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[15.726932] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[15.775024] (-) TimerEvent: {}
+[15.875354] (-) TimerEvent: {}
+[15.929255] (apriltag_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[15.975462] (-) TimerEvent: {}
+[16.002858] (apriltag_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[16.075560] (-) TimerEvent: {}
+[16.087769] (apriltag_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.109601] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[16.175659] (-) TimerEvent: {}
+[16.251954] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[16.253275] (apriltag_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.275756] (-) TimerEvent: {}
+[16.376118] (-) TimerEvent: {}
+[16.407283] (apriltag_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[16.411401] (apriltag_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.476204] (-) TimerEvent: {}
+[16.576581] (-) TimerEvent: {}
+[16.595322] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[16.676609] (apriltag_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[16.676999] (-) TimerEvent: {}
+[16.756388] (apriltag_ros) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/home/team100/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake)\n'}
+[16.777105] (-) TimerEvent: {}
+[16.785762] (apriltag_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[16.877239] (-) TimerEvent: {}
+[16.972564] (apriltag_ros) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[16.977334] (-) TimerEvent: {}
+[17.019386] (apriltag_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[17.061448] (apriltag_ros) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core calib3d \n'}
+[17.076366] (apriltag_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.077433] (-) TimerEvent: {}
+[17.177838] (-) TimerEvent: {}
+[17.278251] (-) TimerEvent: {}
+[17.294020] (apriltag_ros) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[17.305238] (apriltag_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[17.305838] (apriltag_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[17.306145] (apriltag_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[17.310226] (apriltag_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.365061] (apriltag_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[17.378339] (-) TimerEvent: {}
+[17.380112] (apriltag_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/team100/team_ws/build/apriltag_ros\n'}
+[17.410429] (apriltag_ros) CommandEnded: {'returncode': 0}
+[17.411954] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'build'}
+[17.412913] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/team100/team_ws/build/apriltag_ros', '--', '-j6', '-l6'], 'cwd': '/home/team100/team_ws/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'team100'), ('SSH_CLIENT', '172.20.10.9 54431 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/home/team100/team_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/team100'), ('OLDPWD', '/home/team100/team_ws/src/e116'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/team100/team_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'team100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/team100/team_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/team_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/team100/team_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/team100/team_ws/install/e116:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/team100/team_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.9 54431 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/e116:/opt/ros/humble')]), 'shell': False}
+[17.478729] (-) TimerEvent: {}
+[17.515104] (apriltag_ros) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_node.dir/rclcpp_components/node_main_apriltag_node.cpp.o\x1b[0m\n'}
+[17.515714] (apriltag_ros) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/tags.dir/src/tag_functions.cpp.o\x1b[0m\n'}
+[17.516201] (apriltag_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/conversion.dir/src/conversion.cpp.o\x1b[0m\n'}
+[17.578927] (-) TimerEvent: {}
+[17.679621] (-) TimerEvent: {}
+[17.780348] (-) TimerEvent: {}
+[17.881102] (-) TimerEvent: {}
+[17.981906] (-) TimerEvent: {}
+[18.082737] (-) TimerEvent: {}
+[18.183472] (-) TimerEvent: {}
+[18.284170] (-) TimerEvent: {}
+[18.288611] (apriltag_ros) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libtags.a\x1b[0m\n'}
+[18.361854] (apriltag_ros) StdoutLine: {'line': b'[ 40%] Built target tags\n'}
+[18.384323] (-) TimerEvent: {}
+[18.485367] (-) TimerEvent: {}
+[18.586430] (-) TimerEvent: {}
+[18.687511] (-) TimerEvent: {}
+[18.788272] (-) TimerEvent: {}
+[18.889057] (-) TimerEvent: {}
+[18.989818] (-) TimerEvent: {}
+[19.100259] (-) TimerEvent: {}
+[19.201055] (-) TimerEvent: {}
+[19.301835] (-) TimerEvent: {}
+[19.402576] (-) TimerEvent: {}
+[19.503346] (-) TimerEvent: {}
+[19.603986] (-) TimerEvent: {}
+[19.704620] (-) TimerEvent: {}
+[19.805204] (-) TimerEvent: {}
+[19.905774] (-) TimerEvent: {}
+[20.006365] (-) TimerEvent: {}
+[20.107022] (-) TimerEvent: {}
+[20.207804] (-) TimerEvent: {}
+[20.308546] (-) TimerEvent: {}
+[20.409232] (-) TimerEvent: {}
+[20.509938] (-) TimerEvent: {}
+[20.610583] (-) TimerEvent: {}
+[20.711242] (-) TimerEvent: {}
+[20.811979] (-) TimerEvent: {}
+[20.912655] (-) TimerEvent: {}
+[21.013334] (-) TimerEvent: {}
+[21.114139] (-) TimerEvent: {}
+[21.214938] (-) TimerEvent: {}
+[21.315681] (-) TimerEvent: {}
+[21.416371] (-) TimerEvent: {}
+[21.517138] (-) TimerEvent: {}
+[21.617798] (-) TimerEvent: {}
+[21.718446] (-) TimerEvent: {}
+[21.819186] (-) TimerEvent: {}
+[21.919899] (-) TimerEvent: {}
+[22.020614] (-) TimerEvent: {}
+[22.107649] (apriltag_ros) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libconversion.a\x1b[0m\n'}
+[22.120739] (-) TimerEvent: {}
+[22.182735] (apriltag_ros) StdoutLine: {'line': b'[ 50%] Built target conversion\n'}
+[22.220896] (-) TimerEvent: {}
+[22.225863] (apriltag_ros) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/pose_estimation.dir/src/pose_estimation.cpp.o\x1b[0m\n'}
+[22.321042] (-) TimerEvent: {}
+[22.422146] (-) TimerEvent: {}
+[22.523329] (-) TimerEvent: {}
+[22.624628] (-) TimerEvent: {}
+[22.725693] (-) TimerEvent: {}
+[22.826442] (-) TimerEvent: {}
+[22.927186] (-) TimerEvent: {}
+[23.027952] (-) TimerEvent: {}
+[23.128944] (-) TimerEvent: {}
+[23.229944] (-) TimerEvent: {}
+[23.330689] (-) TimerEvent: {}
+[23.431433] (-) TimerEvent: {}
+[23.532157] (-) TimerEvent: {}
+[23.632817] (-) TimerEvent: {}
+[23.733728] (-) TimerEvent: {}
+[23.834481] (-) TimerEvent: {}
+[23.935252] (-) TimerEvent: {}
+[24.036022] (-) TimerEvent: {}
+[24.141860] (-) TimerEvent: {}
+[24.242854] (-) TimerEvent: {}
+[24.343820] (-) TimerEvent: {}
+[24.444575] (-) TimerEvent: {}
+[24.545347] (-) TimerEvent: {}
+[24.646350] (-) TimerEvent: {}
+[24.747074] (-) TimerEvent: {}
+[24.847835] (-) TimerEvent: {}
+[24.948549] (-) TimerEvent: {}
+[25.049187] (-) TimerEvent: {}
+[25.149939] (-) TimerEvent: {}
+[25.240139] (apriltag_ros) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable apriltag_node\x1b[0m\n'}
+[25.250089] (-) TimerEvent: {}
+[25.350773] (-) TimerEvent: {}
+[25.451540] (-) TimerEvent: {}
+[25.552252] (-) TimerEvent: {}
+[25.610185] (apriltag_ros) StdoutLine: {'line': b'[ 70%] Built target apriltag_node\n'}
+[25.652376] (-) TimerEvent: {}
+[25.752970] (-) TimerEvent: {}
+[25.853537] (-) TimerEvent: {}
+[25.954169] (-) TimerEvent: {}
+[26.054720] (-) TimerEvent: {}
+[26.155208] (-) TimerEvent: {}
+[26.255680] (-) TimerEvent: {}
+[26.356181] (-) TimerEvent: {}
+[26.456717] (-) TimerEvent: {}
+[26.557208] (-) TimerEvent: {}
+[26.657662] (-) TimerEvent: {}
+[26.737349] (apriltag_ros) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX static library libpose_estimation.a\x1b[0m\n'}
+[26.757872] (-) TimerEvent: {}
+[26.806752] (apriltag_ros) StdoutLine: {'line': b'[ 80%] Built target pose_estimation\n'}
+[26.847254] (apriltag_ros) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o\x1b[0m\n'}
+[26.858021] (-) TimerEvent: {}
+[26.958642] (-) TimerEvent: {}
+[27.059260] (-) TimerEvent: {}
+[27.159905] (-) TimerEvent: {}
+[27.260529] (-) TimerEvent: {}
+[27.361059] (-) TimerEvent: {}
+[27.461643] (-) TimerEvent: {}
+[27.562172] (-) TimerEvent: {}
+[27.662685] (-) TimerEvent: {}
+[27.763254] (-) TimerEvent: {}
+[27.863948] (-) TimerEvent: {}
+[27.964543] (-) TimerEvent: {}
+[28.065152] (-) TimerEvent: {}
+[28.165642] (-) TimerEvent: {}
+[28.266097] (-) TimerEvent: {}
+[28.366509] (-) TimerEvent: {}
+[28.466935] (-) TimerEvent: {}
+[28.567300] (-) TimerEvent: {}
+[28.667677] (-) TimerEvent: {}
+[28.768041] (-) TimerEvent: {}
+[28.868442] (-) TimerEvent: {}
+[28.968868] (-) TimerEvent: {}
+[29.069558] (-) TimerEvent: {}
+[29.170294] (-) TimerEvent: {}
+[29.270833] (-) TimerEvent: {}
+[29.371280] (-) TimerEvent: {}
+[29.471758] (-) TimerEvent: {}
+[29.572148] (-) TimerEvent: {}
+[29.672500] (-) TimerEvent: {}
+[29.772944] (-) TimerEvent: {}
+[29.873355] (-) TimerEvent: {}
+[29.973799] (-) TimerEvent: {}
+[30.074410] (-) TimerEvent: {}
+[30.174871] (-) TimerEvent: {}
+[30.275284] (-) TimerEvent: {}
+[30.375679] (-) TimerEvent: {}
+[30.476095] (-) TimerEvent: {}
+[30.576482] (-) TimerEvent: {}
+[30.676858] (-) TimerEvent: {}
+[30.777230] (-) TimerEvent: {}
+[30.877617] (-) TimerEvent: {}
+[30.978023] (-) TimerEvent: {}
+[31.078595] (-) TimerEvent: {}
+[31.179101] (-) TimerEvent: {}
+[31.279499] (-) TimerEvent: {}
+[31.379888] (-) TimerEvent: {}
+[31.480307] (-) TimerEvent: {}
+[31.580693] (-) TimerEvent: {}
+[31.681058] (-) TimerEvent: {}
+[31.781432] (-) TimerEvent: {}
+[31.881795] (-) TimerEvent: {}
+[31.982242] (-) TimerEvent: {}
+[32.082847] (-) TimerEvent: {}
+[32.183337] (-) TimerEvent: {}
+[32.283752] (-) TimerEvent: {}
+[32.384141] (-) TimerEvent: {}
+[32.484590] (-) TimerEvent: {}
+[32.584950] (-) TimerEvent: {}
+[32.685341] (-) TimerEvent: {}
+[32.785716] (-) TimerEvent: {}
+[32.886068] (-) TimerEvent: {}
+[32.986455] (-) TimerEvent: {}
+[33.086933] (-) TimerEvent: {}
+[33.187534] (-) TimerEvent: {}
+[33.287982] (-) TimerEvent: {}
+[33.388396] (-) TimerEvent: {}
+[33.488868] (-) TimerEvent: {}
+[33.589219] (-) TimerEvent: {}
+[33.689569] (-) TimerEvent: {}
+[33.789946] (-) TimerEvent: {}
+[33.890305] (-) TimerEvent: {}
+[33.990700] (-) TimerEvent: {}
+[34.091185] (-) TimerEvent: {}
+[34.191864] (-) TimerEvent: {}
+[34.292368] (-) TimerEvent: {}
+[34.392870] (-) TimerEvent: {}
+[34.493335] (-) TimerEvent: {}
+[34.593726] (-) TimerEvent: {}
+[34.694149] (-) TimerEvent: {}
+[34.794623] (-) TimerEvent: {}
+[34.895141] (-) TimerEvent: {}
+[34.995608] (-) TimerEvent: {}
+[35.096209] (-) TimerEvent: {}
+[35.196930] (-) TimerEvent: {}
+[35.297491] (-) TimerEvent: {}
+[35.398325] (-) TimerEvent: {}
+[35.499146] (-) TimerEvent: {}
+[35.599997] (-) TimerEvent: {}
+[35.700908] (-) TimerEvent: {}
+[35.801494] (-) TimerEvent: {}
+[35.902047] (-) TimerEvent: {}
+[36.002942] (-) TimerEvent: {}
+[36.103557] (-) TimerEvent: {}
+[36.204651] (-) TimerEvent: {}
+[36.305660] (-) TimerEvent: {}
+[36.406611] (-) TimerEvent: {}
+[36.507551] (-) TimerEvent: {}
+[36.608505] (-) TimerEvent: {}
+[36.709470] (-) TimerEvent: {}
+[36.810053] (-) TimerEvent: {}
+[36.910626] (-) TimerEvent: {}
+[37.011531] (-) TimerEvent: {}
+[37.112111] (-) TimerEvent: {}
+[37.212864] (-) TimerEvent: {}
+[37.313535] (-) TimerEvent: {}
+[37.414456] (-) TimerEvent: {}
+[37.515400] (-) TimerEvent: {}
+[37.616327] (-) TimerEvent: {}
+[37.717263] (-) TimerEvent: {}
+[37.817805] (-) TimerEvent: {}
+[37.918417] (-) TimerEvent: {}
+[38.019314] (-) TimerEvent: {}
+[38.119873] (-) TimerEvent: {}
+[38.220881] (-) TimerEvent: {}
+[38.321696] (-) TimerEvent: {}
+[38.422662] (-) TimerEvent: {}
+[38.523607] (-) TimerEvent: {}
+[38.624539] (-) TimerEvent: {}
+[38.725437] (-) TimerEvent: {}
+[38.825993] (-) TimerEvent: {}
+[38.926579] (-) TimerEvent: {}
+[39.027481] (-) TimerEvent: {}
+[39.128364] (-) TimerEvent: {}
+[39.229345] (-) TimerEvent: {}
+[39.330417] (-) TimerEvent: {}
+[39.441682] (-) TimerEvent: {}
+[39.542691] (-) TimerEvent: {}
+[39.643652] (-) TimerEvent: {}
+[39.744579] (-) TimerEvent: {}
+[39.845170] (-) TimerEvent: {}
+[39.945764] (-) TimerEvent: {}
+[40.046540] (-) TimerEvent: {}
+[40.147517] (-) TimerEvent: {}
+[40.248505] (-) TimerEvent: {}
+[40.349548] (-) TimerEvent: {}
+[40.450542] (-) TimerEvent: {}
+[40.551511] (-) TimerEvent: {}
+[40.652128] (-) TimerEvent: {}
+[40.752754] (-) TimerEvent: {}
+[40.853655] (-) TimerEvent: {}
+[40.954271] (-) TimerEvent: {}
+[41.054986] (-) TimerEvent: {}
+[41.155668] (-) TimerEvent: {}
+[41.256274] (-) TimerEvent: {}
+[41.357014] (-) TimerEvent: {}
+[41.457876] (-) TimerEvent: {}
+[41.558812] (-) TimerEvent: {}
+[41.580267] (apriltag_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libAprilTagNode.so\x1b[0m\n'}
+[41.658998] (-) TimerEvent: {}
+[41.759984] (-) TimerEvent: {}
+[41.861039] (-) TimerEvent: {}
+[41.961926] (-) TimerEvent: {}
+[42.062833] (-) TimerEvent: {}
+[42.163977] (-) TimerEvent: {}
+[42.264801] (-) TimerEvent: {}
+[42.365867] (-) TimerEvent: {}
+[42.466933] (-) TimerEvent: {}
+[42.567984] (-) TimerEvent: {}
+[42.633700] (apriltag_ros) StdoutLine: {'line': b'[100%] Built target AprilTagNode\n'}
+[42.656942] (apriltag_ros) CommandEnded: {'returncode': 0}
+[42.659054] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'install'}
+[42.659898] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/team100/team_ws/build/apriltag_ros'], 'cwd': '/home/team100/team_ws/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'team100'), ('SSH_CLIENT', '172.20.10.9 54431 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/home/team100/team_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/team100'), ('OLDPWD', '/home/team100/team_ws/src/e116'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/team100/team_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'team100'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/team100/team_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/team_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/team100/team_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/team100/team_ws/install/e116:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/team100/team_ws/build/apriltag_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.9 54431 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/e116:/opt/ros/humble')]), 'shell': False}
+[42.668061] (-) TimerEvent: {}
+[42.677633] (apriltag_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[42.678544] (apriltag_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[42.679471] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node\n'}
+[42.697320] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh\n'}
+[42.714392] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv\n'}
+[42.732238] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/lib/libAprilTagNode.so\n'}
+[42.749742] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml\n'}
+[42.767456] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/launch/camera_36h11.launch.yml\n'}
+[42.768159] (-) TimerEvent: {}
+[42.785998] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/launch/rs2camera_tag.launch.yml\n'}
+[42.803688] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros\n'}
+[42.821107] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros\n'}
+[42.838314] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh\n'}
+[42.855351] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv\n'}
+[42.868293] (-) TimerEvent: {}
+[42.872550] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh\n'}
+[42.890038] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv\n'}
+[42.907802] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash\n'}
+[42.925155] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh\n'}
+[42.942447] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh\n'}
+[42.959367] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv\n'}
+[42.968407] (-) TimerEvent: {}
+[42.976254] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/package.dsv\n'}
+[42.993665] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros\n'}
+[43.010696] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros\n'}
+[43.027669] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake\n'}
+[43.045841] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake\n'}
+[43.062464] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/package.xml\n'}
+[43.068518] (-) TimerEvent: {}
+[43.084104] (apriltag_ros) CommandEnded: {'returncode': 0}
+[43.139938] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 0}
+[43.142250] (-) EventReactorShutdown: {}

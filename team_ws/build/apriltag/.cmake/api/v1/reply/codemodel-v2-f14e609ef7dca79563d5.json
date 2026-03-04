@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e6da8e79ed5d899af9eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "apriltag",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag-Release-18d8746fbf16ff39cb81.json",
+					"name" : "apriltag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag.cpython-310-aarch64-linux-gnu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag.cpython-310-aarch64-linux-gnu-Release-e2d799c846bc02411744.json",
+					"name" : "apriltag.cpython-310-aarch64-linux-gnu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_demo-Release-7c34f16e2185de0b78d9.json",
+					"name" : "apriltag_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_py_docstrings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_py_docstrings-Release-5b3b0a0c7cb6f1a67087.json",
+					"name" : "apriltag_py_docstrings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_demo-Release-ff76fcbcf569a71c9d4d.json",
+					"name" : "opencv_demo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/team100/team_ws/build/apriltag",
+		"source" : "/home/team100/team_ws/src/apriltag"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

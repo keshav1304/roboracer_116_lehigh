@@ -1,0 +1,50 @@
+[1.369s] Invoking command in '/home/team100/team_ws/src/e116': PYTHONPATH=/home/team100/team_ws/src/e116/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/e116 build --build-base /home/team100/team_ws/src/e116/build/e116/build install --record /home/team100/team_ws/src/e116/build/e116/install.log --single-version-externally-managed install_data
+[1.909s] running egg_info
+[1.910s] creating build/e116/e116.egg-info
+[1.910s] writing build/e116/e116.egg-info/PKG-INFO
+[1.911s] writing dependency_links to build/e116/e116.egg-info/dependency_links.txt
+[1.911s] writing entry points to build/e116/e116.egg-info/entry_points.txt
+[1.911s] writing requirements to build/e116/e116.egg-info/requires.txt
+[1.912s] writing top-level names to build/e116/e116.egg-info/top_level.txt
+[1.912s] writing manifest file 'build/e116/e116.egg-info/SOURCES.txt'
+[1.915s] reading manifest file 'build/e116/e116.egg-info/SOURCES.txt'
+[1.917s] writing manifest file 'build/e116/e116.egg-info/SOURCES.txt'
+[1.917s] running build
+[1.917s] running build_py
+[1.918s] creating /home/team100/team_ws/src/e116/build/e116/build
+[1.918s] creating /home/team100/team_ws/src/e116/build/e116/build/lib
+[1.918s] creating /home/team100/team_ws/src/e116/build/e116/build/lib/e116
+[1.918s] copying e116/__init__.py -> /home/team100/team_ws/src/e116/build/e116/build/lib/e116
+[1.918s] copying e116/keyJoy.py -> /home/team100/team_ws/src/e116/build/e116/build/lib/e116
+[1.920s] copying e116/keyJoyTerminal.py -> /home/team100/team_ws/src/e116/build/e116/build/lib/e116
+[1.920s] copying e116/e116_racecar.py -> /home/team100/team_ws/src/e116/build/e116/build/lib/e116
+[1.921s] running install
+[1.922s] running install_lib
+[1.926s] creating /home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages/e116
+[1.926s] copying /home/team100/team_ws/src/e116/build/e116/build/lib/e116/__init__.py -> /home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages/e116
+[1.926s] copying /home/team100/team_ws/src/e116/build/e116/build/lib/e116/keyJoy.py -> /home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages/e116
+[1.926s] copying /home/team100/team_ws/src/e116/build/e116/build/lib/e116/keyJoyTerminal.py -> /home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages/e116
+[1.927s] copying /home/team100/team_ws/src/e116/build/e116/build/lib/e116/e116_racecar.py -> /home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages/e116
+[1.928s] byte-compiling /home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages/e116/__init__.py to __init__.cpython-310.pyc
+[1.929s] byte-compiling /home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages/e116/keyJoy.py to keyJoy.cpython-310.pyc
+[1.930s] byte-compiling /home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages/e116/keyJoyTerminal.py to keyJoyTerminal.cpython-310.pyc
+[1.931s] byte-compiling /home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages/e116/e116_racecar.py to e116_racecar.cpython-310.pyc
+[1.933s] running install_data
+[1.934s] creating /home/team100/team_ws/src/e116/install/e116/share/ament_index
+[1.934s] creating /home/team100/team_ws/src/e116/install/e116/share/ament_index/resource_index
+[1.934s] creating /home/team100/team_ws/src/e116/install/e116/share/ament_index/resource_index/packages
+[1.934s] copying resource/e116 -> /home/team100/team_ws/src/e116/install/e116/share/ament_index/resource_index/packages
+[1.934s] copying package.xml -> /home/team100/team_ws/src/e116/install/e116/share/e116
+[1.934s] creating /home/team100/team_ws/src/e116/install/e116/share/e116/launch
+[1.935s] copying launch/teleop.launch.py -> /home/team100/team_ws/src/e116/install/e116/share/e116/launch
+[1.936s] copying launch/teleop_terminal.launch.py -> /home/team100/team_ws/src/e116/install/e116/share/e116/launch
+[1.936s] creating /home/team100/team_ws/src/e116/install/e116/share/e116/config
+[1.936s] copying config/e116.yaml -> /home/team100/team_ws/src/e116/install/e116/share/e116/config
+[1.936s] running install_egg_info
+[1.940s] Copying build/e116/e116.egg-info to /home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages/e116-0.0.1-py3.10.egg-info
+[1.942s] running install_scripts
+[1.986s] Installing e116_racecar script to /home/team100/team_ws/src/e116/install/e116/lib/e116
+[1.986s] Installing keyJoy script to /home/team100/team_ws/src/e116/install/e116/lib/e116
+[1.987s] Installing keyJoyTerminal script to /home/team100/team_ws/src/e116/install/e116/lib/e116
+[1.988s] writing list of installed files to '/home/team100/team_ws/src/e116/build/e116/install.log'
+[2.056s] Invoked command in '/home/team100/team_ws/src/e116' returned '0': PYTHONPATH=/home/team100/team_ws/src/e116/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/team_ws/src/e116/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/e116 build --build-base /home/team100/team_ws/src/e116/build/e116/build install --record /home/team100/team_ws/src/e116/build/e116/install.log --single-version-externally-managed install_data

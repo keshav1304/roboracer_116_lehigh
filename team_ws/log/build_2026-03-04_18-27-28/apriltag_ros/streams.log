@@ -1,0 +1,34 @@
+[0.023s] Invoking command in '/home/team100/team_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/e116:/opt/ros/humble LD_LIBRARY_PATH=/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/home/team100/team_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/team100/team_ws/build/apriltag_ros -- -j6 -l6
+[0.134s] [ 40%] Built target tags
+[0.135s] [ 40%] Built target conversion
+[0.138s] [ 60%] Built target apriltag_node
+[0.183s] [ 80%] Built target pose_estimation
+[0.241s] [100%] Built target AprilTagNode
+[0.266s] Invoked command in '/home/team100/team_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/e116:/opt/ros/humble LD_LIBRARY_PATH=/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/home/team100/team_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/team100/team_ws/build/apriltag_ros -- -j6 -l6
+[0.269s] Invoking command in '/home/team100/team_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/e116:/opt/ros/humble LD_LIBRARY_PATH=/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/home/team100/team_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/team100/team_ws/build/apriltag_ros
+[0.285s] -- Install configuration: ""
+[0.286s] -- Execute custom install script
+[0.286s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_node
+[0.287s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+[0.287s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+[0.288s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/lib/libAprilTagNode.so
+[0.288s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml
+[0.289s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/launch/camera_36h11.launch.yml
+[0.289s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/launch/rs2camera_tag.launch.yml
+[0.290s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+[0.290s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+[0.290s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+[0.291s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+[0.291s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+[0.291s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+[0.291s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+[0.292s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+[0.292s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+[0.293s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+[0.293s] -- Symlinking: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/package.dsv
+[0.317s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+[0.319s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+[0.320s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+[0.320s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+[0.321s] -- Up-to-date symlink: /home/team100/team_ws/install/apriltag_ros/share/apriltag_ros/package.xml
+[0.321s] Invoked command in '/home/team100/team_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/team100/team_ws/install/apriltag_msgs:/home/team100/team_ws/install/apriltag:/home/team100/team_ws/install/apriltag_ros:/home/team100/team_ws/install/e116:/opt/ros/humble LD_LIBRARY_PATH=/home/team100/team_ws/install/apriltag_msgs/lib:/home/team100/team_ws/install/apriltag/lib:/home/team100/team_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/team100/team_ws/install/apriltag/lib/python3.10/site-packages:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:/home/team100/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/team100/team_ws/build/apriltag_ros

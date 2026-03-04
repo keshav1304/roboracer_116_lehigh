@@ -1,0 +1,4 @@
+Invoking command in '/home/team100/team_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/team100/team_ws/build/apriltag -- -j6 -l6
+Invoked command in '/home/team100/team_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/team100/team_ws/build/apriltag -- -j6 -l6
+Invoking command in '/home/team100/team_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/team100/team_ws/build/apriltag
+Invoked command in '/home/team100/team_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/team100/team_ws/build/apriltag

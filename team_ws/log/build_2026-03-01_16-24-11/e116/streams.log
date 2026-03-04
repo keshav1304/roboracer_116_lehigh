@@ -1,0 +1,37 @@
+[1.531s] Invoking command in '/home/team100/team_ws/src/e116': PYTHONPATH=/home/team100/team_ws/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/e116 build --build-base /home/team100/team_ws/build/e116/build install --record /home/team100/team_ws/build/e116/install.log --single-version-externally-managed install_data
+[2.078s] running egg_info
+[2.079s] writing ../../build/e116/e116.egg-info/PKG-INFO
+[2.080s] writing dependency_links to ../../build/e116/e116.egg-info/dependency_links.txt
+[2.081s] writing entry points to ../../build/e116/e116.egg-info/entry_points.txt
+[2.081s] writing requirements to ../../build/e116/e116.egg-info/requires.txt
+[2.081s] writing top-level names to ../../build/e116/e116.egg-info/top_level.txt
+[2.085s] reading manifest file '../../build/e116/e116.egg-info/SOURCES.txt'
+[2.087s] writing manifest file '../../build/e116/e116.egg-info/SOURCES.txt'
+[2.087s] running build
+[2.087s] running build_py
+[2.088s] copying e116/__init__.py -> /home/team100/team_ws/build/e116/build/lib/e116
+[2.088s] copying e116/e116_OLED.py -> /home/team100/team_ws/build/e116/build/lib/e116
+[2.088s] copying e116/gap_follow.py -> /home/team100/team_ws/build/e116/build/lib/e116
+[2.089s] copying e116/e116_racecar.py -> /home/team100/team_ws/build/e116/build/lib/e116
+[2.089s] running install
+[2.090s] running install_lib
+[2.094s] copying /home/team100/team_ws/build/e116/build/lib/e116/__init__.py -> /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116
+[2.095s] copying /home/team100/team_ws/build/e116/build/lib/e116/e116_OLED.py -> /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116
+[2.095s] copying /home/team100/team_ws/build/e116/build/lib/e116/gap_follow.py -> /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116
+[2.095s] copying /home/team100/team_ws/build/e116/build/lib/e116/e116_racecar.py -> /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116
+[2.097s] byte-compiling /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116/__init__.py to __init__.cpython-310.pyc
+[2.097s] byte-compiling /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116/e116_OLED.py to e116_OLED.cpython-310.pyc
+[2.100s] byte-compiling /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116/gap_follow.py to gap_follow.cpython-310.pyc
+[2.102s] byte-compiling /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116/e116_racecar.py to e116_racecar.cpython-310.pyc
+[2.104s] running install_data
+[2.104s] copying launch/e116race.launch.py -> /home/team100/team_ws/install/e116/share/e116/launch
+[2.105s] copying config/e116.yaml -> /home/team100/team_ws/install/e116/share/e116/config
+[2.105s] running install_egg_info
+[2.109s] Copying ../../build/e116/e116.egg-info to /home/team100/team_ws/install/e116/lib/python3.10/site-packages/e116-0.0.0-py3.10.egg-info
+[2.111s] running install_scripts
+[2.156s] Installing e116_OLED script to /home/team100/team_ws/install/e116/lib/e116
+[2.157s] Installing e116_racecar script to /home/team100/team_ws/install/e116/lib/e116
+[2.157s] Installing gap_follow script to /home/team100/team_ws/install/e116/lib/e116
+[2.157s] Installing keyJoy script to /home/team100/team_ws/install/e116/lib/e116
+[2.158s] writing list of installed files to '/home/team100/team_ws/build/e116/install.log'
+[2.231s] Invoked command in '/home/team100/team_ws/src/e116' returned '0': PYTHONPATH=/home/team100/team_ws/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/team_ws/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/e116 build --build-base /home/team100/team_ws/build/e116/build install --record /home/team100/team_ws/build/e116/install.log --single-version-externally-managed install_data
