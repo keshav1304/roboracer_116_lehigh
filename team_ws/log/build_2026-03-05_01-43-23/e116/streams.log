@@ -1,0 +1,47 @@
+[1.839s] Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/build/e116': PYTHONPATH=/home/team100/roboracer_116_lehigh/team_ws/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/team100/roboracer_116_lehigh/team_ws/build/e116/build
+[2.456s] running develop
+[2.847s] Removing /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116.egg-link (link to .)
+[2.928s] Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/build/e116' returned '0': PYTHONPATH=/home/team100/roboracer_116_lehigh/team_ws/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/team100/roboracer_116_lehigh/team_ws/build/e116/build
+[2.933s] Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/src/e116': PYTHONPATH=/home/team100/roboracer_116_lehigh/team_ws/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/e116 build --build-base /home/team100/roboracer_116_lehigh/team_ws/build/e116/build install --record /home/team100/roboracer_116_lehigh/team_ws/build/e116/install.log --single-version-externally-managed install_data --force
+[3.488s] running egg_info
+[3.490s] writing ../../build/e116/e116.egg-info/PKG-INFO
+[3.490s] writing dependency_links to ../../build/e116/e116.egg-info/dependency_links.txt
+[3.491s] writing entry points to ../../build/e116/e116.egg-info/entry_points.txt
+[3.491s] writing requirements to ../../build/e116/e116.egg-info/requires.txt
+[3.492s] writing top-level names to ../../build/e116/e116.egg-info/top_level.txt
+[3.498s] reading manifest file '../../build/e116/e116.egg-info/SOURCES.txt'
+[3.501s] writing manifest file '../../build/e116/e116.egg-info/SOURCES.txt'
+[3.501s] running build
+[3.501s] running build_py
+[3.503s] copying e116/keyJoyTerminal.py -> /home/team100/roboracer_116_lehigh/team_ws/build/e116/build/lib/e116
+[3.503s] running install
+[3.504s] running install_lib
+[3.508s] creating /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116
+[3.508s] copying /home/team100/roboracer_116_lehigh/team_ws/build/e116/build/lib/e116/__init__.py -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116
+[3.508s] copying /home/team100/roboracer_116_lehigh/team_ws/build/e116/build/lib/e116/keyJoy.py -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116
+[3.509s] copying /home/team100/roboracer_116_lehigh/team_ws/build/e116/build/lib/e116/e116_OLED.py -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116
+[3.510s] copying /home/team100/roboracer_116_lehigh/team_ws/build/e116/build/lib/e116/gap_follow.py -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116
+[3.510s] copying /home/team100/roboracer_116_lehigh/team_ws/build/e116/build/lib/e116/keyJoyTerminal.py -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116
+[3.511s] copying /home/team100/roboracer_116_lehigh/team_ws/build/e116/build/lib/e116/e116_racecar.py -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116
+[3.513s] byte-compiling /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116/__init__.py to __init__.cpython-310.pyc
+[3.513s] byte-compiling /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116/keyJoy.py to keyJoy.cpython-310.pyc
+[3.515s] byte-compiling /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116/e116_OLED.py to e116_OLED.cpython-310.pyc
+[3.517s] byte-compiling /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116/gap_follow.py to gap_follow.cpython-310.pyc
+[3.519s] byte-compiling /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116/keyJoyTerminal.py to keyJoyTerminal.cpython-310.pyc
+[3.521s] byte-compiling /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116/e116_racecar.py to e116_racecar.cpython-310.pyc
+[3.523s] running install_data
+[3.523s] copying resource/e116 -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/share/ament_index/resource_index/packages
+[3.525s] copying package.xml -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/share/e116
+[3.525s] copying launch/teleop.launch.py -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/share/e116/launch
+[3.526s] copying launch/e116race.launch.py -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/share/e116/launch
+[3.528s] copying config/e116.yaml -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/share/e116/config
+[3.529s] running install_egg_info
+[3.533s] Copying ../../build/e116/e116.egg-info to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116-0.0.0-py3.10.egg-info
+[3.536s] running install_scripts
+[3.581s] Installing e116_OLED script to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/e116
+[3.581s] Installing e116_racecar script to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/e116
+[3.582s] Installing gap_follow script to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/e116
+[3.582s] Installing keyJoy script to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/e116
+[3.583s] Installing keyJoyTerminal script to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/e116
+[3.583s] writing list of installed files to '/home/team100/roboracer_116_lehigh/team_ws/build/e116/install.log'
+[3.656s] Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/src/e116' returned '0': PYTHONPATH=/home/team100/roboracer_116_lehigh/team_ws/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/e116 build --build-base /home/team100/roboracer_116_lehigh/team_ws/build/e116/build install --record /home/team100/roboracer_116_lehigh/team_ws/build/e116/install.log --single-version-externally-managed install_data --force

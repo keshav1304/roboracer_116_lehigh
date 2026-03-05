@@ -1,0 +1,28 @@
+[1.545s] Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/src/e116': PYTHONPATH=/home/team100/roboracer_116_lehigh/team_ws/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/e116 build --build-base /home/team100/roboracer_116_lehigh/team_ws/build/e116/build install --record /home/team100/roboracer_116_lehigh/team_ws/build/e116/install.log --single-version-externally-managed install_data
+[2.094s] running egg_info
+[2.096s] writing ../../build/e116/e116.egg-info/PKG-INFO
+[2.096s] writing dependency_links to ../../build/e116/e116.egg-info/dependency_links.txt
+[2.097s] writing entry points to ../../build/e116/e116.egg-info/entry_points.txt
+[2.097s] writing requirements to ../../build/e116/e116.egg-info/requires.txt
+[2.097s] writing top-level names to ../../build/e116/e116.egg-info/top_level.txt
+[2.101s] reading manifest file '../../build/e116/e116.egg-info/SOURCES.txt'
+[2.103s] writing manifest file '../../build/e116/e116.egg-info/SOURCES.txt'
+[2.104s] running build
+[2.104s] running build_py
+[2.104s] copying e116/gap_follow.py -> /home/team100/roboracer_116_lehigh/team_ws/build/e116/build/lib/e116
+[2.105s] running install
+[2.106s] running install_lib
+[2.111s] copying /home/team100/roboracer_116_lehigh/team_ws/build/e116/build/lib/e116/gap_follow.py -> /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116
+[2.113s] byte-compiling /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116/gap_follow.py to gap_follow.cpython-310.pyc
+[2.115s] running install_data
+[2.116s] running install_egg_info
+[2.120s] removing '/home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116-0.0.0-py3.10.egg-info' (and everything under it)
+[2.120s] Copying ../../build/e116/e116.egg-info to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages/e116-0.0.0-py3.10.egg-info
+[2.123s] running install_scripts
+[2.168s] Installing e116_OLED script to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/e116
+[2.168s] Installing e116_racecar script to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/e116
+[2.169s] Installing gap_follow script to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/e116
+[2.169s] Installing keyJoy script to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/e116
+[2.169s] Installing keyJoyTerminal script to /home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/e116
+[2.170s] writing list of installed files to '/home/team100/roboracer_116_lehigh/team_ws/build/e116/install.log'
+[2.244s] Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/src/e116' returned '0': PYTHONPATH=/home/team100/roboracer_116_lehigh/team_ws/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/roboracer_116_lehigh/team_ws/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/e116 build --build-base /home/team100/roboracer_116_lehigh/team_ws/build/e116/build install --record /home/team100/roboracer_116_lehigh/team_ws/build/e116/install.log --single-version-externally-managed install_data

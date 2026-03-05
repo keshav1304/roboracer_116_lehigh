@@ -10,9 +10,9 @@ from tf2_msgs.msg import TFMessage
 
 ## parameters ##
 SPEED0 = 0.0 #idle speed
-SPEED1 = 0.75 #m/s, speed for making a turn
-SPEED2 = 1.80 #m/s, speed for driving straight
-turningAngle = 0.08 # in radians
+SPEED1 = 0.1 #m/s, speed for making a turn
+SPEED2 = 0.15 #m/s, speed for driving straight
+turningAngle = 0.08  # in radians
 angle_scale = 0.7
 t_keep2 = 0.2
 t_keep1 = 0.1
@@ -31,6 +31,10 @@ class GapFollowNode(Node):
         self.tags_sub   # prevent unused variable warning        
 
     def callback(self, data):
+        tag_transforms = [t for t in data.transforms if ':' in t.child_frame_id]
+        if not tag_transforms:
+            return
+        data.transforms = tag_transforms
         self.printTagInfo(data)
         self.computeAckermann(data)
         self.sendAckermann(self.speed,self.angle)

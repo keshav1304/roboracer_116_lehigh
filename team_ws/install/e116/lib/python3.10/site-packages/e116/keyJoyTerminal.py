@@ -19,7 +19,7 @@ from rclpy.node import Node
 from ackermann_msgs.msg import AckermannDriveStamped
 from rclpy.qos import QoSProfile
 
-MY_SPEED = 1.5   # meters/second  (reduced for safety)
+MY_SPEED = 0.5   # meters/second  (reduced for safety)
 MY_ANGLE = 0.15   # radians
 
 USAGE = """

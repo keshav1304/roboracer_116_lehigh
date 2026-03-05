@@ -3,8 +3,8 @@ e116_racecar:
     servo_min: 21.2
     servo_max: 38.1
     servo_center: 29.3 #match your car
-    motor_forward_start: 32 #match your car
-    motor_backward_start: -28.8 #match your car
+    motor_forward_start: 31.45 #match your car
+    motor_backward_start: 28.3 #match your car
     motor_range: 3.5 #maximum speed < 7.0 m/s
     speed_scale: 0.75
     speed_dead_area: 0.1
