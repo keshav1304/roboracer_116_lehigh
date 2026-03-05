@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DFASTCDR_DYN_LINK -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_FASTRTPS_C_BUILDING_DLL_apriltag_msgs -DROS_PACKAGE_NAME=\"apriltag_msgs\"
 
-CXX_INCLUDES = -I/home/team100/team_ws/build/apriltag_msgs/rosidl_typesupport_fastrtps_c -I/home/team100/team_ws/build/apriltag_msgs/rosidl_generator_c -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces
+CXX_INCLUDES = -I/home/team100/roboracer_116_lehigh/team_ws/build/apriltag_msgs/rosidl_typesupport_fastrtps_c -I/home/team100/roboracer_116_lehigh/team_ws/build/apriltag_msgs/rosidl_generator_c -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces
 
 CXX_FLAGS =  -Wall -Wextra -Wpedantic -fPIC -Wall -Wextra -Wpedantic -std=gnu++14
 

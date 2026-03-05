@@ -1,5 +1,5 @@
 CMakeFiles/apriltag.dir/common/pnm.c.o: \
- /home/team100/team_ws/src/apriltag/common/pnm.c \
+ /home/team100/roboracer_116_lehigh/team_ws/src/apriltag/common/pnm.c \
  /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
@@ -54,7 +54,7 @@ CMakeFiles/apriltag.dir/common/pnm.c.o: \
  /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
  /usr/include/aarch64-linux-gnu/bits/stdlib.h \
- /home/team100/team_ws/src/apriltag/common/pnm.h \
+ /home/team100/roboracer_116_lehigh/team_ws/src/apriltag/common/pnm.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h

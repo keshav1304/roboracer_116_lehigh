@@ -1,1 +1,6 @@
-/home/team100/team_ws/build/apriltag_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+msg/AprilTagDetection.idl
+msg/AprilTagDetection.msg
+msg/AprilTagDetectionArray.idl
+msg/AprilTagDetectionArray.msg
+msg/Point.idl
+msg/Point.msg

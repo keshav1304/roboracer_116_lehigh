@@ -1,7 +1,7 @@
 CMakeFiles/apriltag.dir/common/pthreads_cross.c.o: \
- /home/team100/team_ws/src/apriltag/common/pthreads_cross.c \
+ /home/team100/roboracer_116_lehigh/team_ws/src/apriltag/common/pthreads_cross.c \
  /usr/include/stdc-predef.h \
- /home/team100/team_ws/src/apriltag/common/pthreads_cross.h \
+ /home/team100/roboracer_116_lehigh/team_ws/src/apriltag/common/pthreads_cross.h \
  /usr/include/pthread.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \

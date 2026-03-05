@@ -1,4 +1,4 @@
-prefix=/home/team100/team_ws/install/apriltag
+prefix=/home/team100/roboracer_116_lehigh/team_ws/install/apriltag
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib

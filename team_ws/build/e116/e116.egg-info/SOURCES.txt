@@ -17,7 +17,6 @@ e116/keyJoy.py
 e116/keyJoyTerminal.py
 launch/e116race.launch.py
 launch/teleop.launch.py
-launch/teleop_terminal.launch.py
 resource/e116
 test/test_copyright.py
 test/test_flake8.py

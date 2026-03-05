@@ -1,0 +1,130 @@
+[0.033s] Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/team100/roboracer_116_lehigh/team_ws/src/apriltag -DCMAKE_INSTALL_PREFIX=/home/team100/roboracer_116_lehigh/team_ws/install/apriltag
+[0.540s] -- The C compiler identification is GNU 11.4.0
+[0.564s] -- Detecting C compiler ABI info
+[0.740s] -- Detecting C compiler ABI info - done
+[0.754s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.764s] -- Detecting C compile features
+[0.766s] -- Detecting C compile features - done
+[0.768s] -- Setting build type to 'Release' as none was specified.
+[0.777s] -- Looking for pthread.h
+[0.988s] -- Looking for pthread.h - found
+[0.988s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.137s] -- Found Threads: TRUE  
+[3.344s] -- The CXX compiler identification is GNU 11.4.0
+[3.365s] -- Detecting CXX compiler ABI info
+[3.528s] -- Detecting CXX compiler ABI info - done
+[3.550s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.550s] -- Detecting CXX compile features
+[3.552s] -- Detecting CXX compile features - done
+[3.555s] -- Configuring done
+[3.588s] -- Generating done
+[3.596s] -- Build files have been written to: /home/team100/roboracer_116_lehigh/team_ws/build/apriltag
+[3.606s] Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/team100/roboracer_116_lehigh/team_ws/src/apriltag -DCMAKE_INSTALL_PREFIX=/home/team100/roboracer_116_lehigh/team_ws/install/apriltag
+[3.612s] Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/team100/roboracer_116_lehigh/team_ws/build/apriltag -- -j6 -l6
+[3.707s] [  4%] [34m[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx[0m
+[3.708s] [  4%] [34m[1mGenerating apriltag_estimate_tag_pose_docstring.h, apriltag_estimate_tag_pose_docstring.cxx[0m
+[3.708s] [  9%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag.c.o[0m
+[3.708s] [  9%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_pose.c.o[0m
+[3.714s] [ 11%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o[0m
+[3.720s] [ 13%] [34m[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx[0m
+[3.765s] [ 16%] [32mBuilding C object CMakeFiles/apriltag.dir/common/g2d.c.o[0m
+[3.771s] [ 18%] [32mBuilding C object CMakeFiles/apriltag.dir/common/getopt.c.o[0m
+[3.784s] [ 18%] Built target apriltag_py_docstrings
+[3.805s] [ 20%] [32mBuilding C object CMakeFiles/apriltag.dir/common/homography.c.o[0m
+[4.285s] [ 23%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8.c.o[0m
+[4.336s] [ 25%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8_parallel.c.o[0m
+[4.493s] [ 27%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x4.c.o[0m
+[4.507s] [ 30%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x3.c.o[0m
+[4.728s] [ 32%] [32mBuilding C object CMakeFiles/apriltag.dir/common/matd.c.o[0m
+[4.897s] [ 34%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pam.c.o[0m
+[5.002s] [ 37%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg-idct.c.o[0m
+[5.034s] [ 39%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg.c.o[0m
+[5.160s] [ 41%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pnm.c.o[0m
+[5.413s] [ 44%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pthreads_cross.c.o[0m
+[5.493s] [ 46%] [32mBuilding C object CMakeFiles/apriltag.dir/common/string_util.c.o[0m
+[5.720s] [ 48%] [32mBuilding C object CMakeFiles/apriltag.dir/common/svd22.c.o[0m
+[5.877s] [ 51%] [32mBuilding C object CMakeFiles/apriltag.dir/common/time_util.c.o[0m
+[5.905s] [ 53%] [32mBuilding C object CMakeFiles/apriltag.dir/common/unionfind.c.o[0m
+[6.036s] [ 55%] [32mBuilding C object CMakeFiles/apriltag.dir/common/workerpool.c.o[0m
+[6.139s] [ 58%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zarray.c.o[0m
+[6.224s] [ 60%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zhash.c.o[0m
+[6.235s] [ 62%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zmaxheap.c.o[0m
+[6.270s] [ 65%] [32mBuilding C object CMakeFiles/apriltag.dir/tag16h5.c.o[0m
+[6.317s] [ 67%] [32mBuilding C object CMakeFiles/apriltag.dir/tag25h9.c.o[0m
+[6.318s] [ 69%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h10.c.o[0m
+[6.431s] [ 72%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h11.c.o[0m
+[6.515s] [ 76%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle21h7.c.o[0m
+[6.515s] [ 76%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle49h12.c.o[0m
+[6.549s] [ 79%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCustom48h12.c.o[0m
+[6.648s] [ 81%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard41h12.c.o[0m
+[6.660s] [ 83%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard52h13.c.o[0m
+[7.216s] [ 86%] [32m[1mLinking C shared library libapriltag.so[0m
+[7.368s] [ 86%] Built target apriltag
+[7.406s] [ 90%] [32mBuilding C object CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/apriltag_pywrap.c.o[0m
+[7.407s] [ 90%] [32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o[0m
+[7.412s] [ 93%] [32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o[0m
+[7.711s] [ 95%] [32m[1mLinking C executable apriltag_demo[0m
+[7.797s] [ 95%] Built target apriltag_demo
+[8.517s] [ 97%] [32m[1mLinking C shared module apriltag.cpython-310-aarch64-linux-gnu.so[0m
+[8.636s] [ 97%] Built target apriltag.cpython-310-aarch64-linux-gnu
+[13.587s] [100%] [32m[1mLinking CXX executable opencv_demo[0m
+[15.679s] [100%] Built target opencv_demo
+[15.704s] Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/team100/roboracer_116_lehigh/team_ws/build/apriltag -- -j6 -l6
+[15.709s] Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/build/apriltag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/team100/roboracer_116_lehigh/team_ws/build/apriltag
+[15.725s] -- Install configuration: "Release"
+[15.726s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/apriltag.h
+[15.726s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/apriltag_math.h
+[15.726s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/apriltag_pose.h
+[15.727s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/debug_print.h
+[15.727s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/doubles.h
+[15.728s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[15.729s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/floats.h
+[15.730s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/g2d.h
+[15.730s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/getopt.h
+[15.731s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/homography.h
+[15.731s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/image_types.h
+[15.731s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/image_u8.h
+[15.732s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/image_u8_parallel.h
+[15.732s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/image_u8x3.h
+[15.732s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/image_u8x4.h
+[15.733s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/matd.h
+[15.733s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/math_util.h
+[15.734s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/pam.h
+[15.734s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/pjpeg.h
+[15.734s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/pnm.h
+[15.735s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/postscript_utils.h
+[15.735s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/pthreads_cross.h
+[15.735s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/string_util.h
+[15.735s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/svd22.h
+[15.736s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/time_util.h
+[15.736s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/timeprofile.h
+[15.736s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/unionfind.h
+[15.737s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/workerpool.h
+[15.737s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/zarray.h
+[15.737s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/zhash.h
+[15.738s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/common/zmaxheap.h
+[15.738s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/tag16h5.h
+[15.738s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/tag25h9.h
+[15.738s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/tag36h10.h
+[15.739s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/tag36h11.h
+[15.739s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/tagCircle21h7.h
+[15.739s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/tagCircle49h12.h
+[15.740s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/tagCustom48h12.h
+[15.740s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/tagStandard41h12.h
+[15.740s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag/tagStandard52h13.h
+[15.741s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/lib/libapriltag.so.3.4.5
+[15.745s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/lib/libapriltag.so.3
+[15.745s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/lib/libapriltag.so
+[15.745s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/lib/apriltag/cmake/apriltagTargets.cmake
+[15.746s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/lib/apriltag/cmake/apriltagTargets-release.cmake
+[15.746s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/lib/apriltag/cmake/apriltagConfig.cmake
+[15.746s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/lib/apriltag/cmake/apriltagConfigVersion.cmake
+[15.746s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/lib/pkgconfig/apriltag.pc
+[15.747s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-aarch64-linux-gnu.so
+[15.748s] -- Set runtime path of "/home/team100/roboracer_116_lehigh/team_ws/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-aarch64-linux-gnu.so" to ""
+[15.748s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/bin/opencv_demo
+[15.749s] -- Set runtime path of "/home/team100/roboracer_116_lehigh/team_ws/install/apriltag/bin/opencv_demo" to ""
+[15.749s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/bin/apriltag_demo
+[15.749s] -- Set runtime path of "/home/team100/roboracer_116_lehigh/team_ws/install/apriltag/bin/apriltag_demo" to ""
+[15.753s] Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/team100/roboracer_116_lehigh/team_ws/build/apriltag

@@ -1,0 +1,184 @@
+[0.042s] Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --build /home/team100/roboracer_116_lehigh/team_ws/build/apriltag_msgs -- -j6 -l6
+[0.186s] [  2%] Built target apriltag_msgs__cpp
+[0.240s] [ 12%] Built target apriltag_msgs__rosidl_generator_c
+[0.242s] [ 12%] Built target ament_cmake_python_copy_apriltag_msgs
+[0.258s] [ 23%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[0.302s] [ 34%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[0.319s] [ 55%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[0.322s] [ 51%] Built target apriltag_msgs__rosidl_typesupport_c
+[0.325s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[0.331s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[0.376s] [ 76%] Built target apriltag_msgs
+[0.422s] [ 78%] Built target apriltag_msgs__py
+[0.475s] [ 87%] Built target apriltag_msgs__rosidl_generator_py
+[0.529s] [ 91%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[0.547s] [ 95%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[0.548s] [100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.955s] running egg_info
+[0.957s] writing apriltag_msgs.egg-info/PKG-INFO
+[0.957s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[0.958s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[0.963s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[0.966s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[1.045s] [100%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[1.074s] Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --build /home/team100/roboracer_116_lehigh/team_ws/build/apriltag_msgs -- -j6 -l6
+[1.077s] Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --install /home/team100/roboracer_116_lehigh/team_ws/build/apriltag_msgs
+[1.095s] -- Install configuration: ""
+[1.096s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[1.100s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[1.101s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[1.103s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[1.103s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[1.103s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[1.105s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[1.105s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[1.105s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c
+[1.105s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h
+[1.106s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h
+[1.107s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[1.108s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.c
+[1.109s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[1.109s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h
+[1.109s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.c
+[1.109s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h
+[1.109s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[1.109s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[1.110s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.110s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[1.110s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[1.110s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[1.110s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[1.110s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[1.110s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[1.110s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[1.111s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[1.111s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[1.111s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.111s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[1.111s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[1.111s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[1.111s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[1.111s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.c
+[1.112s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[1.112s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[1.112s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.c
+[1.112s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[1.112s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c
+[1.112s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.113s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[1.113s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[1.113s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[1.114s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[1.115s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[1.115s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[1.115s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[1.115s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp
+[1.115s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[1.115s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.hpp
+[1.115s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
+[1.116s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp
+[1.116s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[1.116s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[1.116s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[1.116s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
+[1.116s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp
+[1.116s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[1.117s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp
+[1.117s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.117s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[1.117s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[1.117s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[1.117s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[1.117s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.117s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.118s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/dds_fastrtps
+[1.118s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[1.118s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.118s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.118s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[1.118s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[1.118s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[1.119s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp
+[1.120s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[1.120s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp
+[1.121s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[1.121s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[1.121s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.cpp
+[1.121s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[1.122s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[1.122s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[1.122s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[1.123s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info
+[1.123s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/top_level.txt
+[1.123s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/dependency_links.txt
+[1.123s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/SOURCES.txt
+[1.124s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/PKG-INFO
+[1.124s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs
+[1.124s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.125s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[1.125s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.126s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py
+[1.126s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.126s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[1.126s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg
+[1.127s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py
+[1.127s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[1.127s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py
+[1.128s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point_s.c
+[1.128s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py
+[1.128s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[1.129s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[1.129s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.129s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.192s] Listing '/home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...
+[1.192s] Listing '/home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...
+[1.208s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.208s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.209s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.210s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[1.211s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl
+[1.211s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[1.211s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[1.211s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg
+[1.212s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[1.212s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[1.212s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[1.212s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[1.213s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[1.213s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[1.213s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[1.213s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[1.213s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[1.213s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[1.213s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[1.214s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[1.214s] -- Installing: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[1.214s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[1.214s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[1.215s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.215s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.215s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.215s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.215s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.216s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[1.216s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.216s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[1.216s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.216s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.216s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.217s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.217s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[1.217s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.217s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[1.217s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.218s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[1.218s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.218s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.218s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.218s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.219s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.219s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.219s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[1.219s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[1.219s] -- Up-to-date: /home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[1.226s] Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --install /home/team100/roboracer_116_lehigh/team_ws/build/apriltag_msgs

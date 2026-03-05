@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'keyJoy = e116.keyJoy:main',
+            'keyJoyTerminal = e116.keyJoyTerminal:main',
             'e116_OLED = e116.e116_OLED:main',
             'gap_follow = e116.gap_follow:main',	
             'e116_racecar = e116.e116_racecar:main'

@@ -1,1 +1,0 @@
-/home/team100/team_ws/build/apriltag_msgs/rosidl_generator_py/apriltag_msgs/__init__.py

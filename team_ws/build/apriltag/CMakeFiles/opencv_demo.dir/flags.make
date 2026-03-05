@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/team100/team_ws/src/apriltag -I/apriltag -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/team100/roboracer_116_lehigh/team_ws/src/apriltag -I/apriltag -isystem /usr/include/opencv4
 
 CXX_FLAGS = -O3 -DNDEBUG -Wall -Wextra -Wpedantic -Wno-shift-negative-value -Werror -std=gnu++11
 

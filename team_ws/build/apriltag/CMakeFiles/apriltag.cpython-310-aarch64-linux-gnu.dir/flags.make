@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Dapriltag_cpython_310_aarch64_linux_gnu_EXPORTS
 
-C_INCLUDES = -I/home/team100/team_ws/build/apriltag -I/home/team100/team_ws/src/apriltag -I/apriltag -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include
+C_INCLUDES = -I/home/team100/roboracer_116_lehigh/team_ws/build/apriltag -I/home/team100/roboracer_116_lehigh/team_ws/src/apriltag -I/apriltag -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include
 
 C_FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wno-shift-negative-value -Werror
 

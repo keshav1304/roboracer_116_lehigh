@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(apriltag::apriltag SHARED IMPORTED)
 
 set_target_properties(apriltag::apriltag PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/team100/team_ws/src/apriltag/;/apriltag"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/team100/roboracer_116_lehigh/team_ws/src/apriltag/;/apriltag"
   INTERFACE_LINK_LIBRARIES "Threads::Threads;m"
 )
 
 # Import target "apriltag::apriltag" for configuration "Release"
 set_property(TARGET apriltag::apriltag APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(apriltag::apriltag PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/team100/team_ws/build/apriltag/libapriltag.so.3.4.5"
+  IMPORTED_LOCATION_RELEASE "/home/team100/roboracer_116_lehigh/team_ws/build/apriltag/libapriltag.so.3.4.5"
   IMPORTED_SONAME_RELEASE "libapriltag.so.3"
   )
 

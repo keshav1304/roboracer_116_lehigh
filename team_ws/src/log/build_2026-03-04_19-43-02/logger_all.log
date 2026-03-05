@@ -1,0 +1,331 @@
+[0.255s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.255s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa0df2560>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa0df1d50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa0df1d50>>, mixin_verb=('build',))
+[0.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.642s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.643s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/team100/roboracer_116_lehigh/team_ws/src'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag) by extension 'ros'
+[0.679s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag' with type 'ros.cmake' and name 'apriltag'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'ignore'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'ignore_ament_install'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['colcon_pkg']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'colcon_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['colcon_meta']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extensions ['ros']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_msgs) by extension 'ros'
+[0.682s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_msgs' with type 'ros.ament_cmake' and name 'apriltag_msgs'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'colcon_pkg'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['colcon_meta']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'colcon_meta'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extensions ['ros']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(apriltag_ros) by extension 'ros'
+[0.686s] DEBUG:colcon.colcon_core.package_identification:Package 'apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(e116) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(e116) by extension 'ignore'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(e116) by extension 'ignore_ament_install'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(e116) by extensions ['colcon_pkg']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(e116) by extension 'colcon_pkg'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(e116) by extensions ['colcon_meta']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(e116) by extension 'colcon_meta'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(e116) by extensions ['ros']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(e116) by extension 'ros'
+[0.690s] DEBUG:colcon.colcon_core.package_identification:Package 'e116' with type 'ros.ament_python' and name 'e116'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.770s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/team100/roboracer_116_lehigh/team_ws/install
+[0.773s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 298 installed packages in /opt/ros/humble
+[0.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_target' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_clean_cache' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_clean_first' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'cmake_force_configure' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'ament_cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'catkin_cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'apriltag' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.867s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag', 'merge_install': False, 'path': '/home/team100/roboracer_116_lehigh/team_ws/src/apriltag', 'symlink_install': False, 'test_result_base': None}
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_args' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.868s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs', 'merge_install': False, 'path': '/home/team100/roboracer_116_lehigh/team_ws/src/apriltag_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'e116' build argument 'cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'e116' build argument 'cmake_target' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'e116' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'e116' build argument 'cmake_clean_cache' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'e116' build argument 'cmake_clean_first' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'e116' build argument 'cmake_force_configure' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'e116' build argument 'ament_cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'e116' build argument 'catkin_cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'e116' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.869s] DEBUG:colcon.colcon_core.verb:Building package 'e116' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/team100/roboracer_116_lehigh/team_ws/src/build/e116', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116', 'merge_install': False, 'path': '/home/team100/roboracer_116_lehigh/team_ws/src/e116', 'symlink_install': False, 'test_result_base': None}
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.870s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros', 'merge_install': False, 'path': '/home/team100/roboracer_116_lehigh/team_ws/src/apriltag_ros', 'symlink_install': False, 'test_result_base': None}
+[0.871s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.873s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.874s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/team100/roboracer_116_lehigh/team_ws/src/apriltag' with build type 'cmake'
+[0.874s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/team100/roboracer_116_lehigh/team_ws/src/apriltag'
+[0.879s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.887s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/team100/roboracer_116_lehigh/team_ws/src/apriltag_msgs' with build type 'ament_cmake'
+[0.887s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/team100/roboracer_116_lehigh/team_ws/src/apriltag_msgs'
+[0.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.888s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.894s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/team100/roboracer_116_lehigh/team_ws/src/e116' with build type 'ament_python'
+[0.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('e116', 'ament_prefix_path')
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/hook/ament_prefix_path.ps1'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/hook/ament_prefix_path.dsv'
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/hook/ament_prefix_path.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --build /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag -- -j6 -l6
+[0.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --build /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_msgs -- -j6 -l6
+[1.528s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/team100/roboracer_116_lehigh/team_ws/src/e116'
+[1.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --build /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag -- -j6 -l6
+[2.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --install /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --install /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag
+[2.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'pkg_config_path')
+[2.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pkg_config_path.ps1'
+[2.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pkg_config_path.dsv'
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pkg_config_path.sh'
+[2.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'pkg_config_path_multiarch')
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pkg_config_path_multiarch.ps1'
+[2.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pkg_config_path_multiarch.dsv'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pkg_config_path_multiarch.sh'
+[2.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag)
+[2.142s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag' for CMake module files
+[2.143s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag' for CMake config files
+[2.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'cmake_prefix_path')
+[2.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/cmake_prefix_path.ps1'
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/cmake_prefix_path.dsv'
+[2.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/cmake_prefix_path.sh'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib'
+[2.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'ld_library_path_lib')
+[2.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/ld_library_path_lib.ps1'
+[2.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/ld_library_path_lib.dsv'
+[2.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/ld_library_path_lib.sh'
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/bin'
+[2.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'path')
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/path.ps1'
+[2.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/path.dsv'
+[2.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/path.sh'
+[2.156s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/pkgconfig/apriltag.pc'
+[2.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'pkg_config')
+[2.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pkg_config.ps1'
+[2.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pkg_config.dsv'
+[2.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pkg_config.sh'
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/python3.10/site-packages'
+[2.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'pythonpath')
+[2.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pythonpath.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pythonpath.dsv'
+[2.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pythonpath.sh'
+[2.166s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/bin'
+[2.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag', 'pythonscriptspath')
+[2.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pythonscriptspath.ps1'
+[2.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pythonscriptspath.dsv'
+[2.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/hook/pythonscriptspath.sh'
+[2.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/package.ps1'
+[2.174s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/package.dsv'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/package.sh'
+[2.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/package.bash'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/apriltag/package.zsh'
+[2.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/share/colcon-core/packages/apriltag)
+[2.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/src/e116': PYTHONPATH=/home/team100/roboracer_116_lehigh/team_ws/src/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/e116 build --build-base /home/team100/roboracer_116_lehigh/team_ws/src/build/e116/build install --record /home/team100/roboracer_116_lehigh/team_ws/src/build/e116/install.log --single-version-externally-managed install_data
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116' for CMake module files
+[3.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/src/e116' returned '0': PYTHONPATH=/home/team100/roboracer_116_lehigh/team_ws/src/build/e116/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/e116 build --build-base /home/team100/roboracer_116_lehigh/team_ws/src/build/e116/build install --record /home/team100/roboracer_116_lehigh/team_ws/src/build/e116/install.log --single-version-externally-managed install_data
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116' for CMake config files
+[3.093s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/lib'
+[3.093s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/bin'
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/lib/pkgconfig/e116.pc'
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/lib/python3.10/site-packages'
+[3.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('e116', 'pythonpath')
+[3.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/hook/pythonpath.ps1'
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/hook/pythonpath.dsv'
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/hook/pythonpath.sh'
+[3.102s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/bin'
+[3.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(e116)
+[3.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/package.ps1'
+[3.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/package.dsv'
+[3.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/package.sh'
+[3.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/package.bash'
+[3.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/e116/package.zsh'
+[3.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/team100/roboracer_116_lehigh/team_ws/src/install/e116/share/colcon-core/packages/e116)
+[7.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --build /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_msgs -- -j6 -l6
+[7.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --install /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_msgs
+[7.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[7.902s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs' for CMake module files
+[7.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble /usr/bin/cmake --install /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_msgs
+[7.906s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs' for CMake config files
+[7.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[7.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[7.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[7.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[7.913s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/lib'
+[7.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[7.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[7.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[7.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[7.919s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/bin'
+[7.919s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[7.920s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/lib/python3.10/site-packages'
+[7.922s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/bin'
+[7.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[7.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[7.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[7.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[7.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[7.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[7.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[7.934s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs' for CMake module files
+[7.936s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs' for CMake config files
+[7.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[7.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[7.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[7.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[7.943s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/lib'
+[7.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[7.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[7.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[7.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[7.949s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/bin'
+[7.949s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[7.950s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/lib/python3.10/site-packages'
+[7.951s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/bin'
+[7.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[7.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[7.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[7.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[7.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[7.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[7.961s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/team100/roboracer_116_lehigh/team_ws/src/apriltag_ros' with build type 'ament_cmake'
+[7.961s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/team100/roboracer_116_lehigh/team_ws/src/apriltag_ros'
+[7.962s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.962s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_ros': AMENT_PREFIX_PATH=/home/team100/team_ws/src/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag_ros:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble LD_LIBRARY_PATH=/home/team100/team_ws/src/install/apriltag_msgs/lib:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/lib:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/team100/team_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_ros -- -j6 -l6
+[17.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_ros' returned '0': AMENT_PREFIX_PATH=/home/team100/team_ws/src/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag_ros:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble LD_LIBRARY_PATH=/home/team100/team_ws/src/install/apriltag_msgs/lib:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/lib:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/team100/team_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_ros -- -j6 -l6
+[17.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_ros': AMENT_PREFIX_PATH=/home/team100/team_ws/src/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag_ros:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble LD_LIBRARY_PATH=/home/team100/team_ws/src/install/apriltag_msgs/lib:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/lib:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/team100/team_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_ros
+[17.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[17.990s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros' for CMake module files
+[17.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_ros' returned '0': AMENT_PREFIX_PATH=/home/team100/team_ws/src/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag_ros:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag_msgs:/home/team100/roboracer_116_lehigh/team_ws/install/apriltag:/home/team100/roboracer_116_lehigh/team_ws/install/e116:/opt/ros/humble LD_LIBRARY_PATH=/home/team100/team_ws/src/install/apriltag_msgs/lib:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_msgs/lib:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/team100/team_ws/src/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/team100/roboracer_116_lehigh/team_ws/src/build/apriltag_ros
+[17.993s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros' for CMake config files
+[17.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[17.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[17.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[17.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[17.999s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/lib'
+[18.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[18.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[18.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[18.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[18.005s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/bin'
+[18.005s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[18.006s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/lib/python3.10/site-packages'
+[18.007s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/bin'
+[18.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[18.011s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[18.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/package.sh'
+[18.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/package.bash'
+[18.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[18.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[18.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[18.020s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros' for CMake module files
+[18.021s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros' for CMake config files
+[18.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[18.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[18.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[18.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[18.028s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/lib'
+[18.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[18.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[18.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[18.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[18.033s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/bin'
+[18.034s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[18.034s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/lib/python3.10/site-packages'
+[18.036s] Level 1:colcon.colcon_core.environment:checking '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/bin'
+[18.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[18.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[18.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/package.sh'
+[18.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/package.bash'
+[18.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[18.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/team100/roboracer_116_lehigh/team_ws/src/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[18.047s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.049s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.068s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.112s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/team100/roboracer_116_lehigh/team_ws/src/install/local_setup.ps1'
+[18.117s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/team100/roboracer_116_lehigh/team_ws/src/install/_local_setup_util_ps1.py'
+[18.122s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/team100/roboracer_116_lehigh/team_ws/src/install/setup.ps1'
+[18.127s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/team100/roboracer_116_lehigh/team_ws/src/install/local_setup.sh'
+[18.129s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/team100/roboracer_116_lehigh/team_ws/src/install/_local_setup_util_sh.py'
+[18.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/team100/roboracer_116_lehigh/team_ws/src/install/setup.sh'
+[18.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/team100/roboracer_116_lehigh/team_ws/src/install/local_setup.bash'
+[18.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/team100/roboracer_116_lehigh/team_ws/src/install/setup.bash'
+[18.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/team100/roboracer_116_lehigh/team_ws/src/install/local_setup.zsh'
+[18.145s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/team100/roboracer_116_lehigh/team_ws/src/install/setup.zsh'

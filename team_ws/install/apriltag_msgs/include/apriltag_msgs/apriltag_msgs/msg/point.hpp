@@ -1,1 +1,12 @@
-/home/team100/team_ws/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/point.hpp
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef APRILTAG_MSGS__MSG__POINT_HPP_
+#define APRILTAG_MSGS__MSG__POINT_HPP_
+
+#include "apriltag_msgs/msg/detail/point__struct.hpp"
+#include "apriltag_msgs/msg/detail/point__builder.hpp"
+#include "apriltag_msgs/msg/detail/point__traits.hpp"
+#include "apriltag_msgs/msg/detail/point__type_support.hpp"
+
+#endif  // APRILTAG_MSGS__MSG__POINT_HPP_

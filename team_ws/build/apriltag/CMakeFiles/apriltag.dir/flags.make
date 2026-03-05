@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Dapriltag_EXPORTS
 
-C_INCLUDES = -I/home/team100/team_ws/src/apriltag -I/apriltag
+C_INCLUDES = -I/home/team100/roboracer_116_lehigh/team_ws/src/apriltag -I/apriltag
 
 C_FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wno-shift-negative-value -Werror -std=gnu99
 

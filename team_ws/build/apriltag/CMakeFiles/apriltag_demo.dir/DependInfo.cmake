@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/team100/team_ws/src/apriltag/example/apriltag_demo.c" "CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o" "gcc" "CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o.d"
+  "/home/team100/roboracer_116_lehigh/team_ws/src/apriltag/example/apriltag_demo.c" "CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o" "gcc" "CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/team100/team_ws/build/apriltag/CMakeFiles/apriltag.dir/DependInfo.cmake"
+  "/home/team100/roboracer_116_lehigh/team_ws/build/apriltag/CMakeFiles/apriltag.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

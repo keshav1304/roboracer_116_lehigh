@@ -1,1 +1,2 @@
-/home/team100/team_ws/src/apriltag_msgs/msg/AprilTagDetectionArray.msg
+std_msgs/Header header
+AprilTagDetection[] detections

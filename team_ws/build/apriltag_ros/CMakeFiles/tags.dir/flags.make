@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/team100/team_ws/install/apriltag/include -isystem /home/team100/team_ws/install/apriltag/include/apriltag
+CXX_INCLUDES = -isystem /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include -isystem /home/team100/roboracer_116_lehigh/team_ws/install/apriltag/include/apriltag
 
 CXX_FLAGS = -fPIC -Werror -Wall -Wextra -Wpedantic -std=gnu++14
 
