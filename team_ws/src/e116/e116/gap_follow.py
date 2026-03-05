@@ -10,15 +10,9 @@ from tf2_msgs.msg import TFMessage
 
 ## parameters ##
 SPEED0 = 0.0 #idle speed
-<<<<<<< HEAD
-SPEED1 = 0.1 #m/s, speed for making a turn
-SPEED2 = 0.15 #m/s, speed for driving straight
-turningAngle = 0.08  # in radians
-=======
 SPEED1 = 0.1 #m/s, speed for single-tag tracking
 SPEED2 = 0.15 #m/s, speed for driving between two tags
 SINGLE_TAG_OFFSET = 0.30 # meters, lateral offset from a single tag (approximates half-track width)
->>>>>>> 67a9740 (FTG tweak to remove arbitrary turn on seeing single tag)
 angle_scale = 0.7
 t_keep2 = 0.2
 t_keep1 = 0.1
