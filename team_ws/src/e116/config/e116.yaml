@@ -3,8 +3,13 @@ e116_racecar:
     servo_min: 21.2
     servo_max: 38.1
     servo_center: 29.3 #match your car
+<<<<<<< HEAD
     motor_forward_start: 31.45 #match your car
     motor_backward_start: 28.3 #match your car
+=======
+    motor_forward_start: 31.8 #match your car
+    motor_backward_start: 31.8 #match your car
+>>>>>>> 67a9740 (FTG tweak to remove arbitrary turn on seeing single tag)
     motor_range: 3.5 #maximum speed < 7.0 m/s
     speed_scale: 0.75
     speed_dead_area: 0.1
