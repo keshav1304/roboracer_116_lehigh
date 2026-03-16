@@ -10,9 +10,9 @@ from tf2_msgs.msg import TFMessage
 
 ## parameters ##
 SPEED0 = 0.0 #idle speed
-SPEED1 = 0.1 #m/s, speed for making a turn
-SPEED2 = 0.15 #m/s, speed for driving straight
-turningAngle = 0.08  # in radians
+SPEED1 = 0.1 #m/s, speed for single-tag tracking
+SPEED2 = 0.15 #m/s, speed for driving between two tags
+SINGLE_TAG_OFFSET = 0.20 # meters, lateral offset from a single tag (approximates half-track width)
 angle_scale = 0.7
 t_keep2 = 0.2
 t_keep1 = 0.1
@@ -26,7 +26,7 @@ class GapFollowNode(Node):
         self.ptime1 = time.time()-10
         self.ptime2 = time.time()-10
         self.tag_num = -1
-        self.drive_pub = self.create_publisher( AckermannDriveStamped,'e116_ackermann', qos)
+        self.drive_pub = self.create_publisher(AckermannDriveStamped,'e116_ackermann', qos)
         self.tags_sub = self.create_subscription(TFMessage, '/tf', self.callback, qos)
         self.tags_sub   # prevent unused variable warning        
 
@@ -86,14 +86,22 @@ class GapFollowNode(Node):
         # case 2: unstable
         elif ctime - self.ptime2 < t_keep2:
             pass
-        # case 3: Only left side
+        # case 3: Only left side — steer toward a point offset to the right of the tag
         elif tag_left:
+            pos = tag_left.transform.translation
+            goal_point = [pos.x + SINGLE_TAG_OFFSET, pos.z]
+            print(f"single left tag — goal point: {goal_point}")
             self.speed = SPEED1
-            self.angle = turningAngle
-        # case 4: Only right side
+            self.angle = goal_point[0] / goal_point[1] * angle_scale
+            print(f"speed: {self.speed}", f"angle: {self.angle}")
+        # case 4: Only right side — steer toward a point offset to the left of the tag
         elif tag_right:
+            pos = tag_right.transform.translation
+            goal_point = [pos.x - SINGLE_TAG_OFFSET, pos.z]
+            print(f"single right tag — goal point: {goal_point}")
             self.speed = SPEED1
-            self.angle = -turningAngle
+            self.angle = goal_point[0] / goal_point[1] * angle_scale
+            print(f"speed: {self.speed}", f"angle: {self.angle}")
         # case 5: unstable
         elif ctime - self.ptime1 < t_keep1:
             pass
